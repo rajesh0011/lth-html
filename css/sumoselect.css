@@ -1,0 +1,591 @@
+#birthDate, #anniversaryDate{
+      width: 100%;
+    margin-left: 0;
+    font-size: 14px;
+    padding: 9px;
+    background: url(https://www.lemontreehotels.com/assets/front/images/cal-icon-blue.png) no-repeat center right;
+    background-size: 30px;
+    background-position-x: 97%;
+    border: #4a4b4d 1px solid;
+    height: 40px;
+    padding-top: 8px;
+  background-color: #fff;
+   }
+   .ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+      top: 2px;
+   }
+   .select_cs .iti {
+    width: 100%;
+}
+
+   .MemberSignUp_hero_sc {
+    background: url(../images/sign-in-out-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 100px 0 30px;
+}
+.search_in {
+    width: 100%;
+    margin-left: 0;
+    font-size: 12px;
+    padding: 9px;
+    background: url(../images/search.png) no-repeat center right;
+    background-size: 30px;
+    background-position-x: 97%;
+    border: #4a4b4d 1px solid;
+    height: 40px;
+    padding-top: 8px;
+}
+
+.country-star{
+    position: absolute;
+    left: 121px;
+    color: #f00;
+    top: 7px;
+    z-index: 999;
+}
+.iti--inline-dropdown .iti__dropdown-content {
+    z-index: 99 !important;
+ }
+
+
+.phone-star{
+   display: block;
+    position: absolute;
+    left: 208px;
+    color: #f00;
+    top: 7px;
+    z-index: 999;
+}
+.form-group .palceholder {
+  position: absolute;
+    top: 3px;
+    padding: .375rem .75rem;
+    left: 8px;
+    color: #000000;
+    display: none;
+    z-index: 999;
+    font-size: 14px;
+}
+.form-group label {
+  font-wight: normal;
+  color: #000;
+}
+.form-group .star {
+  color: red;
+  position: relative!important;
+  left: 0px!important;
+}
+
+
+.SelectClass,.SumoSelect.open .search-txt,.SumoUnder {
+  position:absolute;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  top:0;
+  left:0
+}
+.SumoSelect p {
+  margin:0
+}
+.SumoSelect {
+  width:280px
+}
+
+.citysearchbox-section .submit_in {
+    margin: 0px 0 0 !important;
+}
+.rj .coming-soon-hotels-box{
+  overflow: hidden;
+}
+.new-style-form .form-group{
+  position: relative;
+}
+.new-style-form .form-group span.star {
+    position: absolute;
+    color: #f00;
+    top: -4px;
+    z-index: 99;
+    left: 5px;
+}
+/*.new-style-form .form-group.fname span {
+    left: 96px;
+}
+.new-style-form .form-group.lname span {
+    left: 96px;
+}
+.new-style-form .form-group.email span {
+    left: 60px;
+}
+.new-style-form .form-group.phoneno span {
+        left: 205px;
+    z-index: 99;
+}*/
+
+.new-style-form .form-group span.star{
+/*  display: none;*/
+}
+
+.textfield {
+  position: relative;
+  box-sizing: border-box;
+  min-width: 300px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.textfield__label {
+     position: absolute;
+    top: 12px;
+    left: 15px;
+    display: block;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: text;
+}
+.textfield__label::after {
+  position: relative;
+  top: -3px;
+  left: 1px;
+  display: inline-block;
+  content: "*";
+  color: #d0011b;
+}
+
+.textfield__input {
+  display: block;
+    box-sizing: border-box;
+    /* height: 48px; */
+    width: 100%;
+    /* padding: 11px 14px; */
+    /* border: 1px solid #cccccc; */
+    /* border-radius: 5px; */
+    /* background: #ffffff; */
+    /* font-weight: 400; */
+    /* font-size: 16px; */
+    /* line-height: 24px; */
+    /* outline: none; */
+    /* transition: all 0.25s linear;*/
+}
+#birthDate, #anniversaryDate {
+    border: 1px solid #ced4da!important;
+  }
+.textfield__input:focus {
+  border-color: #3a82c6;
+}
+.textfield__input:disabled {
+  border-color: #e6e6e6;
+  background: #f9fafb;
+}
+.textfield__input::-moz-placeholder {
+  color: transparent;
+}
+.textfield__input:-ms-input-placeholder {
+  color: transparent;
+}
+.textfield__input::placeholder {
+  color: transparent;
+}
+.textfield__input:focus + .textfield__label, .textfield__input:valid + .textfield__label, .textfield__input:disabled + .textfield__label {
+  display: none;
+}
+.phoneno label.textfield__label.textfield__label--required {
+    padding-left: 2rem;
+}
+
+
+.stay-more-earn-more{
+  font-size: 36px;
+}
+
+
+
+.citysearchbox-section .submit_in {
+    width: 150px;
+    height: 36px;
+  }
+.citysearchbox-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SelectBox {
+  padding:5px 8px
+}
+.sumoStopScroll {
+  overflow:hidden
+}
+.SumoSelect .hidden {
+  display:none
+}
+.SumoSelect .search-txt {
+  display:none;
+  outline:0
+}
+.SumoSelect .no-match {
+  display:none;
+  padding:6px
+}
+.SumoSelect.open .search-txt {
+  display:inline-block;
+  width:100%;
+  margin:0;
+  padding:5px 8px;
+  border:none;
+  box-sizing:border-box;
+  border-radius:5px
+}
+.SumoSelect.open>.search>label,.SumoSelect.open>.search>span {
+visibility:hidden
+}
+.SelectClass,.SumoUnder {
+  right:0;
+  height:100%;
+  width:100%;
+  border:none;
+  box-sizing:border-box;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter:alpha(opacity=0);
+  -moz-opacity:0;
+  -khtml-opacity:0;
+  opacity:0
+}
+.SelectClass {
+  z-index:1
+}
+.SumoSelect .select-all>label,.SumoSelect>.CaptionCont,.SumoSelect>.optWrapper>.options li.opt label {
+  user-select:none;
+  -o-user-select:none;
+  -moz-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none
+}
+.SumoSelect {
+  display:inline-block;
+  position:relative;
+  outline:0
+}
+.SumoSelect.open>.CaptionCont,.SumoSelect:focus>.CaptionCont,.SumoSelect:hover>.CaptionCont {
+  /*box-shadow:0 0 2px #7799D0;
+  border-color:#7799D0*/
+} 
+.SumoSelect>.CaptionCont {
+      position: relative;
+    border: 1px solid #A4A4A4;
+    border: 1px solid #ced4da;
+    min-height: 14px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0;
+
+}
+.SumoSelect>.CaptionCont>span {
+  display:block;
+  padding-right:30px;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+  cursor:default
+}
+.SumoSelect>.CaptionCont>span.placeholder {
+  color:#ccc;
+  font-style:italic
+}
+.SumoSelect>.CaptionCont>label {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  width:30px
+}
+.SumoSelect>.CaptionCont>label>i {
+  background: url(../../../assets/front/images/search.png) no-repeat center right;
+    background-size: 30px;
+    background-position:center center;
+  width:16px;
+  height:16px;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  background-repeat:no-repeat;
+  opacity:.8
+}
+.SumoSelect>.optWrapper {
+  display:none;
+  z-index:1000;
+  top:30px;
+  width:100%;
+  position:absolute;
+  left:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  background:#fff;
+  border:1px solid #ddd;
+  box-shadow:2px 3px 3px rgba(0,0,0,.11);
+  border-radius:3px;
+  overflow:hidden
+}
+.SumoSelect.open>.optWrapper {
+  top:35px;
+  display:block
+}
+.SumoSelect.open>.optWrapper.up {
+  top:auto;
+  bottom:100%;
+  margin-bottom:5px
+}
+.SumoSelect>.optWrapper ul {
+  list-style:none;
+  display:block;
+  padding:0;
+  margin:0;
+  overflow:auto
+}
+.SumoSelect>.optWrapper>.options {
+  border-radius:2px;
+  position:relative;
+  max-height:350px
+}
+.SumoSelect>.optWrapper>.options li.group.disabled>label {
+  opacity:.5
+}
+.SumoSelect>.optWrapper>.options li ul li.opt {
+  padding-left:22px
+}
+.SumoSelect>.optWrapper.multiple>.options li ul li.opt {
+  padding-left:50px
+}
+.SumoSelect>.optWrapper.isFloating>.options {
+  max-height:100%;
+  box-shadow:0 0 100px #595959
+}
+.SumoSelect>.optWrapper>.options li.opt {
+  padding: 6px 6px 0;
+    position: relative;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 14px;
+}
+.SumoSelect>.optWrapper>.options>li.opt:first-child {
+  border-radius:2px 2px 0 0
+}
+.SumoSelect>.optWrapper>.options>li.opt:last-child {
+  border-radius:0 0 2px 2px;
+  border-bottom:none
+}
+.SumoSelect>.optWrapper>.options li.opt:hover {
+  background-color:#E4E4E4
+}
+.SumoSelect>.optWrapper>.options li.opt.sel {
+  background-color:#a1c0e4;
+  border-bottom:1px solid #a1c0e4
+}
+.SumoSelect>.optWrapper>.options li label {
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+  display:block;
+  cursor:pointer
+}
+.SumoSelect>.optWrapper>.options li span {
+  display:none
+}
+.SumoSelect>.optWrapper>.options li.group>label {
+  cursor:default;
+  padding:8px 6px;
+  font-weight:700
+}
+.SumoSelect>.optWrapper.isFloating {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  width:90%;
+  bottom:0;
+  margin:auto;
+  max-height:90%
+}
+.SumoSelect>.optWrapper>.options li.opt.disabled {
+  background-color:inherit;
+  pointer-events:none
+}
+.SumoSelect>.optWrapper>.options li.opt.disabled * {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter:alpha(opacity=50);
+  -moz-opacity:.5;
+  -khtml-opacity:.5;
+  opacity:.5
+}
+.SumoSelect>.optWrapper.multiple>.options li.opt {
+  padding-left:35px;
+  cursor:pointer
+}
+.SumoSelect .select-all>span,.SumoSelect>.optWrapper.multiple>.options li.opt span {
+  position:absolute;
+  display:block;
+  width:30px;
+  top:0;
+  bottom:0;
+  margin-left:-35px
+}
+.SumoSelect .select-all>span i,.SumoSelect>.optWrapper.multiple>.options li.opt span i {
+  position:absolute;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width:14px;
+  height:14px;
+  border:1px solid #AEAEAE;
+  border-radius:2px;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.15);
+  background-color:#fff
+}
+.SumoSelect>.optWrapper>.MultiControls {
+  display:none;
+  border-top:1px solid #ddd;
+  background-color:#fff;
+  box-shadow:0 0 2px rgba(0,0,0,.13);
+  border-radius:0 0 3px 3px
+}
+.SumoSelect>.optWrapper.multiple.isFloating>.MultiControls {
+  display:block;
+  margin-top:5px;
+  position:absolute;
+  bottom:0;
+  width:100%
+}
+.SumoSelect>.optWrapper.multiple.okCancelInMulti>.MultiControls {
+  display:block
+}
+.SumoSelect>.optWrapper.multiple.okCancelInMulti>.MultiControls>p {
+  padding:6px
+}
+.SumoSelect>.optWrapper.multiple>.MultiControls>p {
+  display:inline-block;
+  cursor:pointer;
+  padding:12px;
+  width:50%;
+  box-sizing:border-box;
+  text-align:center
+}
+.SumoSelect>.optWrapper.multiple>.MultiControls>p:hover {
+  background-color:#f1f1f1
+}
+.SumoSelect>.optWrapper.multiple>.MultiControls>p.btnOk {
+  border-right:1px solid #DBDBDB;
+  border-radius:0 0 0 3px 
+}
+.SumoSelect>.optWrapper.multiple>.MultiControls>p.btnCancel {
+  border-radius:0 0 3px
+}
+.SumoSelect>.optWrapper.isFloating>.options li.opt {
+  padding:12px 6px 
+}
+.SumoSelect>.optWrapper.multiple.isFloating>.options li.opt {
+  padding-left:35px
+}
+.SumoSelect>.optWrapper.multiple.isFloating {
+  padding-bottom:43px
+}
+.SumoSelect .select-all.partial>span i,.SumoSelect .select-all.selected>span i,.SumoSelect>.optWrapper.multiple>.options li.opt.selected span i {
+  background-color:#11a911;
+  box-shadow:none;
+  border-color:transparent;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAABMSURBVAiZfc0xDkAAFIPhd2Kr1WRjcAExuIgzGUTIZ/AkImjSofnbNBAfHvzAHjOKNzhiQ42IDFXCDivaaxAJd0xYshT3QqBxqnxeHvhunpu23xnmAAAAAElFTkSuQmCC);
+  background-repeat:no-repeat;
+  background-position:center center
+}
+.SumoSelect.disabled {
+  opacity:.7;
+  cursor:not-allowed
+}
+.SumoSelect.disabled>.CaptionCont {
+  border-color:#ccc;
+  box-shadow:none
+}
+.SumoSelect .select-all {
+  border-radius:3px 3px 0 0;
+  position:relative;
+  border-bottom:1px solid #ddd;
+  background-color:#fff;
+  padding:8px 0 3px 35px;
+  height:20px;
+  cursor:pointer
+}
+.SumoSelect .select-all>label,.SumoSelect .select-all>span i {
+  cursor:pointer
+}
+.SumoSelect .select-all.partial>span i {
+  background-color:#ccc
+}
+.SumoSelect>.optWrapper>.options li.optGroup {
+  padding-left:5px;
+  text-decoration:underline
+}
+
+
+.cs_form .new-style-form .form-control {
+    font-size: 14px;
+    min-height: 40px;
+    display: block;
+    position: relative;
+    z-index: 9;
+/*    background-color: transparent;*/
+}
+
+section.citynamevaib_main.redeem_cs_main .city-search {
+    width: 100%;
+    margin: 0 auto;
+    display: block!important;
+  }
+
+.for-city-search .SumoSelect{
+  width: 100%!important;
+}
+
+.for-city-search .form-group input[type=tel]::placeholder{
+/*  display: none;*/
+  color: #000;
+}
+.new-style-form .for-city-search .SumoSelect select option{
+  color: #000;
+}
+
+
+
+.neww-rj-css .SelectBox {
+    padding: 7px 8px;
+}
+.new-style-form .form-group.country_cs span.star {
+    left: 2px;
+}
+
+@media screen and (max-width:767px){
+  .stay-more-earn-more{
+  font-size: 18px;
+}
+
+}
+
+#nav-phone .cs_form_join_main.nav-phone-cs .cs_form .sign-in_cs .form-group #error-msg{
+	color:red;
+}
+#nav-phone .cs_form_join_main.nav-phone-cs .cs_form .sign-in_cs .form-group .iti {
+    display: block;
+    margin-top: 0.5rem;
+}

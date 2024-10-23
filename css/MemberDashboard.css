@@ -1,0 +1,359 @@
+.profile_member figure img {width: 100%;border: 8px solid #3394BB;border-radius: 50%;}
+.profile_member figure {max-width: 150px;margin-bottom: 0; margin-right: 20px;}
+.profile_member {display: flex; align-items: center;    height: 100%;}
+.userName_member h3 {    margin-top: 5px;font-size: 3rem;font-weight: bold;}
+.point_member {display: flex;align-items: center; justify-content:end;min-height: 175px;}
+.point_member_main {    min-height: 100px;text-align: center;    width: 30%;}
+.point_member_main a {color: #3394BB;text-decoration: underline;font-size: 11px;font-weight: 600;text-transform: uppercase;letter-spacing: .7px;}
+.point_member_main strong {color: #3394BB;font-weight: bold;font-size: 40px;}
+.userName_member strong {color: #3394BB;font-size: 20px;}
+.point_member_main p {font-size: 12px;margin-bottom: 0;}
+section.menu_member nav ul li a {     letter-spacing: 1px;   font-weight: bold;font-size: 14px;padding: 0;}
+section.menu_member nav ul {flex-direction: row;display: flex;width: 100%;justify-content:center;}
+section.menu_member nav ul li {margin: 0 2px;border-color: rgba(28,28,28,.1);padding: 0.5rem 1rem;text-align: center;border-radius: 4px;border-bottom-left-radius: 0;border-bottom-right-radius: 0; /*box-shadow: inset 9999px 9999px rgb(28 28 28 / 10%);*/}
+div#navbarSupportedContent {    padding: 0;width: 100%;margin-right: 0;	}
+.menu_member {border-bottom: 2px solid #3394BB;}
+.rewards_f-row {text-align: center;}
+.t-bg-white {    padding: 1rem 1.5rem;background-color: #fff;border: 0.0625rem solid #d2d2d2;min-height: 100px;display: flex;align-items: center;}
+.elite-head-main h2 {margin-right: 20px;padding-right: 20px;border-right: 1px solid #d2d2d2;font-size: 30px;font-weight: bold;}
+.elite-head-main h2, .elite-head-main p {margin-bottom: 0;}
+.elite-head-main {display: flex;align-items: center;}
+.elite-head-main p {font-size: 14px;}
+.rewards_f-row span {font-size: 13px;}
+.rewards_f-row h3 {font-size: 22px;margin-top: 3px;}
+.MemberDashboardMiddle_inner_sc {    display: flex;align-items: center;padding: 1rem 1.5rem;background-color: #fff;border: 0.0625rem solid #d2d2d2;}
+.MemberDashboardMiddle_inner_sc .next_up {display: flex;align-items: center;}
+.MemberDashboardMiddle_inner_sc .next_up.next_up_silver {flex-direction: column;align-items: self-start;}
+.MemberDashboardMiddle_inner_sc .next_up a {text-decoration: underline;font-size: 12px;}
+.MemberDashboardMiddle_inner_sc .next_up figure span {position: absolute;bottom: 0;left: 50%;transform: translate(-50%,0);text-align: center;}
+.MemberDashboardMiddle_inner_sc .next_up figure {position: relative;}
+.next_up h2 {font-size: 26px;font-weight: bold;text-transform: capitalize !important;}
+.MemberDashboardMiddle_inner_sc .next_up figure span h4 {font-size: 50px;font-weight: bold;}
+.next_up_inner {border-right: 2px solid #d2d2d2;    padding-left: 30px;}
+.MemberDashboardMiddle_inner_sc .next_up figure span p {font-size: 10px;text-transform: capitalize;}
+.MemberDashboardMiddle_inner_sc .next_up a {color: #3394BB;text-decoration: underline;font-size: 11px;font-weight: 600; text-transform: uppercase;letter-spacing: .7px;}
+.next_up p {font-size: 16px;font-weight: 600;}
+.point_member_left.point_member_main {border-right: 2px solid #d2d2d2;}
+section.menu_member nav ul li.nav-item.active {background:  #3394BB;}
+.trip_left_nav {display: flex;box-shadow: 0px 0px 0px 1px #e2e3e4;padding: 20px;}
+.trip_left_nav .tripTab{width: 20%;    border: 0;}
+.trip_left_nav .tab-content {width: 80%;padding: 0 0 0 20px;}
+.trip_left_nav .tripTab li.nav-item .nav-link {border: 0;box-shadow: 0px 0px 0px 1px #e2e3e4;}
+.trip_left_nav .tripTab li.nav-item .nav-link.active {border: 0;}
+.trip_left_nav .tripTab li.nav-item {margin-bottom: 8px;}
+.trip_left_nav .tripTab li.nav-item .nav-link.active {border: 0;background: #B2B2B2;background: #3394bb; color: white !important;}
+.trip_left_nav .tab-content table {margin-bottom: 0;}
+.trip_left_nav .tab-content table thead tr th, td {padding: 10px;text-align: center;font-size: 14px; text-transform: uppercase;}
+.trip_form {display: flex;align-items: center;}
+.trip_form .form-group {margin: 0 10px 1rem;}
+.trip_form .form-group button {    border-color: #3394bb;background: #3394bb;color: white;}
+.trip_form .form-group input {min-height: 38px;}
+.MemberPromotiondMiddle_main figure span {letter-spacing:5px;position: absolute;left: 50%;top: 50%;color: white;font-size: 50px;width: 50%;padding: 50px;transform: translate(-100%,-50%);    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(14 14 14));}
+.MemberPromotiondMiddle_main figure {position: relative;}
+.MemberPromotiondMiddle_main figure span strong {display: block;}
+.profile_member figure {display: none;}
+.member_status h4 {font-weight:bold;font-size: 2rem;text-transform: unset !important;}
+.MemberDashboardMiddle-main .col-md-8 .member_status h4 {font-size: 20px;}
+.member_status_right_left:last-child {padding-right: 0;}
+.member_status_right_left {width: 60%;padding-right: 10px;}
+.member_status_right {     justify-content: space-between;   width: 100%;display: flex;align-items: center;}
+section.menu_member nav ul li.nav-item.active a {color: white !important;}
+section.menu_member nav ul li{width: 100%;box-shadow: 0px 0px 0px 2px #3394bb;margin: 0 3px;background: white;    padding: 0;max-width: 150px;}
+section.menu_member.bg-light .menu_member_inner ul.navbar-nav.mr-auto li.nav-item a.nav-link {padding: 0.5rem 1rem;}
+.member_status.bg_color {/*background: linear-gradient(to right, #d7d7d7 41%,#ffffff 100%);*/ border-radius: 4px;padding: 20px;min-height: 200px;display: flex;flex-direction: column;justify-content: center;box-shadow:0px 0px 0px 2px #3394BB;}
+.member_status {    display: flex;justify-content: center;flex-direction: column;background:white;border-radius: 4px;padding: 20px;min-height: 200px;box-shadow:0px 0px 0px 2px #3394BB;}
+.member_status.bg_color p{margin-bottom: 0;    color: #3394BB;}
+.member_status_right_left span {     font-size: 12px;}
+.bar_statusNumber {font-size: 14px;    margin-top: 10px;color: #3394bb;}
+.member_status_right_left span.default {font-size: 20px;}
+.bar_statusNumber .progress-bar {background: #3394bb;}
+.divi_bar_statusNumber {display: flex;flex-direction: column;align-items: center;color: #a3a3a3;}
+.need_help a {text-decoration: underline;}
+.need_help {padding: 15px;}
+.my_benefits_right_inner #My_Benefits_tab button.btn.btn-link {    padding: 0;width: 100%;display: flex;justify-content: space-between;align-items: center;font-size: 14px;}
+.my_benefits_right_inner #My_Benefits_tab button.btn.btn-link figure img {width: 100%;margin-right: 5px;}
+.my_benefits_right_inner #My_Benefits_tab button.btn.btn-link figure {max-width: 30px;margin-bottom: 0;}
+#dp1, #dp2 {background: url(../../kimages/cal-icon-blue.png) no-repeat left; background-size: 32px;font-size: 12px;padding-left: 28px;}
+.my_benefits_right_inner #My_Benefits_tab a figure {margin-right: 10px;margin-bottom: 0;}
+.my_benefits_right_inner .card-header h2 a {width: 100%;display: flex;align-items: center;justify-content: space-between;padding: 0;border: 0;}
+.trip_left_nav table tbody tr, .trip_left_nav table tbody tr td {border: 0;border-bottom: 1px solid #dee2e6;padding: 26px;}
+.my_benefits_right_inner #My_Benefits_tab_second button.btn.btn-link {    padding: 0;width: 100%;display: flex;justify-content: space-between;align-items: center;font-size: 14px;}
+.my_benefits_right_inner #My_Benefits_tab_second button.btn.btn-link figure img {width: 100%;margin-right: 5px;}
+.my_benefits_right_inner #My_Benefits_tab_second button.btn.btn-link figure {max-width: 45px;margin-bottom: 0;}
+#dp1, #dp2 {background: url(../../kimages/cal-icon-blue.png) no-repeat left; background-size: 32px;font-size: 12px;padding-left: 28px;}
+.my_benefits_right_inner #My_Benefits_tab_second a figure {margin-bottom: 0;}
+.my_benefits_right_inner .card-header h2 a {    color: #3394bb;width: 100%;display: flex;align-items: center;justify-content:start;padding: 0;border: 0;}
+body .ui-datepicker .ui-datepicker-calendar .end>a {background: #d7b56d!important;}
+.MemberRedeemHeader_banner figure img {max-height: 600px;object-fit: cover;}
+.citynamevaib_main_hotels_inner_main_inner .card .row a.btn.btn-sec { border-radius: 4px;    background: #B2B2B2 !important; color: black !important;border-color: #B2B2B2 !important;}
+.citynamevaib_main_hotels_inner_main_inner .card .row a.bookgrid {background: #D7B56D;color: black !important;border-color: white !important;border-radius: 4px;}
+.profileStep1 .profile_step_one_form ul {padding: 0;margin:30px 0 0;list-style: none;}
+.profileStep1 .profile_step_one_form ul li:nth-child(even) { background: white;}
+.profileStep1 .profile_step_one_form ul li {     border-radius: 4px; background: #f2f2f2;padding: 10px 15px;display: flex;justify-content: space-between;} 
+.editProfileBtn {display: flex;align-items: center;justify-content: space-between;}
+.editProfileBtn a {box-shadow: 0px 0px 0px 1px white;font-size: 14px;padding: 4px 10px !important;background: #3394bb; color: white !important;border-radius: 4px;}
+.profileStep1 .profile_step_one_form ul li span {font-size: 14px;color: #a5a5a5; text-transform: capitalize;}
+.profileStep3 .profile_step_one_form .mobile_otp .row .col-md-4 {padding-left: 0 !important;}
+.profileStep3 .profile_step_one_form .mobile_otp .row .col-md-8 {padding-left: 0 !important;}
+.profileStep3 .profile_step_one_form .mobile_otp .row {margin: 0;}
+.city-search {position: relative;}
+.member_status.plat p {font-weight: bold;}
+.member_status.plat p a {text-decoration: underline;}
+section.citynamevaib_main.redeem_cs_main .city-search input {    margin: 0 5px;border-radius: 4px;}
+section.citynamevaib_main.redeem_cs_main .city-search {     width: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center;}
+section.citynamevaib_main.redeem_cs_main .city-search input.submit_in {width: 100px !important;margin-top: 0 !important;}
+section.citynamevaib_main.py-5.redeem_cs_main center.mb-5 {margin-bottom: 15px !important;}
+.my_benefits_right_inner #My_Benefits_tab button.btn.btn-link {color: #3394bb;}
+.redeem_cs_main .city-search input.submit_in {background: #3394bb;color: white;border-color: #3394bb;}
+.MemberProfile_main .cs_form_join_main .cs_form .profileStep3 button.btn.btn-primary.submit_in.submit_in_main {background: #3394bb;color: white;border-color: #3394bb;}
+.create_account_form.profileStep2 .form-row.submit_btn button.btn.btn-primary.submit_in{background: #3394bb;color: white;border-color: #3394bb;}
+.MemberProfile_main .cs_form_join_main .cs_form .profileStep3 .profile_step_one_form .mobile_otp .col-md-4 button.submit_in.btn.btn-primary {border: 0;background: transparent;color: black; text-decoration: underline;width: unset !important;padding: 0;margin-left: 15px !important;}
+.member_header:before {content: '';background: url(https://www.lemontreehotels.com/Ka_assest/images/infinity_logo.png);background-repeat: no-repeat;background-size: contain;height: 150px;width: 150px;position: absolute;left: 89px;bottom: -65px;transform: rotate(138deg);opacity: .4;    z-index: 1;}
+.member_header {position: relative;}
+.form-group.RedeemPoint_f{display: none;}
+.final_msg.text-succes {text-align: center;background: #3394bb;color: white;padding: 10px 0px;border-radius: 4px;margin-bottom: 20px;}
+.menu_member .menu_member_inner nav.navbar button.navbar-toggler:focus {border: 0 !important;}
+.profileStep1 .profile_step_one_form ul li span.profile_email_cs {text-transform: lowercase;}
+body .ui-datepicker .ui-datepicker-calendar .sejour>a {background: #d7b56d!important;}
+body .ui-datepicker .ui-datepicker-calendar .end>a:after {border-color: transparent #d7b56d transparent transparent!important;}
+.redeem_info_main{text-align: center;background: #3394bb; color: white; padding: 10px 0px; border-radius: 4px; margin-bottom: 20px;}
+input#txtMDate {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    background: url(../../../assets/front/images/cal-icon-blue.png);
+    background-size: 32px !important;
+}
+.modal .trip_form .form-group {
+    margin: 0!important;
+}
+.modal .col-6, .modal .col-12{
+	    padding-right: 4px!important;
+    padding-left: 4px!important;
+}
+.res-form-book-cs .form-row {
+                margin-bottom: 15px;
+            }
+            .res-form-book-cs .form-row input{
+                font-size: 14px;
+                color: #7f7d7d !important;
+            }
+            .modal a.cs-cta {
+    text-align: center;
+    max-width: 115px;
+    width: 100% !important;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 8px 20px !important;
+    background: #D7B56D;
+    color: black !important;
+    border-color: white !important;
+    display: inline-block;
+}
+.modal a.cs-cta.reserve-cs-cta {
+    max-width: unset;
+    width: inherit !important;
+    margin: 0 5px;
+}
+.modal #DtChkIn, .modal #DtChkOut {
+    font-size: 15px;
+    padding-left: 10px!important;
+    text-align: left;
+}
+
+#DtChkIn, #DtChkOut {
+        position: relative;
+    background-repeat: no-repeat !important;
+    background: url(../../../assets/front/images/cal-icon-blue.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 32px !important;
+    background-position: right !important;
+}
+
+.modal .booking.new_booking_form-2 .search_book .search1.booking_lth.home_booking_engine .updated_form_design .form_btm_field .form_btm_field_inner input#dp1 {
+    background: white url(../../../assets/front/images/cal-icon-blue.png) no-repeat left !important;
+    background-size: 32px !important;
+}
+.booking_lth .dp-sep {
+    display: none;
+}
+.dp-sep {
+    position: absolute;
+    border-bottom: 2px solid #929292;
+    width: 10px;
+    top: 2px;
+    margin-left: -4px;
+}
+.modal .booking.new_booking_form-2 .search_book .search1.booking_lth.home_booking_engine .updated_form_design .form_btm_field .form_btm_field_inner input#dp2 {
+    background: white url(../../../assets/front/images/cal-icon-blue.png) no-repeat left !important;
+    background-size: 32px !important;
+}
+input#rooms_childs_show {
+    background: url(../../../assets/front/images/down-angle-updated.png) no-repeat left !important;
+    box-shadow: 0px 0px 0px 1px black !important;
+    display: inline-block;
+    border: 0 !important;
+    margin-bottom: 10px;
+    text-align: left;
+    background-size: 14px !important;
+    background-position: 98%, 50% !important;
+    color: #a79494 !important;
+}
+.backdrop.close-rooms {
+    z-index: 9;
+}
+
+.d-none {
+    display: none !important;
+}
+.backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .2);
+    z-index: -99999;
+    opacity: 0;
+}
+
+.add-rooms-show {
+    z-index: 9 !important;
+    position: absolute;
+    background: #fff;
+    z-index: 99;
+    right: 16.8%;
+    top: 40px;
+    -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, .15);
+    padding: 0 20px 15px;
+    width: 440px;
+}
+.modal.search_book .search1.booking_lth.home_booking_engine .form_btm_field .form_btm_field_inner .showmore.add-rooms-show.mt-2.updated_form_design_main {
+    width: 100% !important;
+    right: unset !important;
+    top: unset !important;
+    padding: 20px;
+}
+
+.modal .search_book .search1.booking_lth.home_booking_engine .form_btm_field .form_btm_field_inner .showmore.add-rooms-show.mt-2.updated_form_design_main a.updated_form_design_close {
+    box-shadow: 0px 0px 0px 1px #363636;
+    color: #363636 !important;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 1px;
+}
+a.updated_form_design_close {
+    z-index: 1;
+    color: #363636;
+    font-weight: bolder;
+    margin-left: 5px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    box-shadow: 0px 0px 0px 2px #363636;
+    padding: 1px 7px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+}
+
+
+
+
+
+@media(max-width: 991px){
+	.point_member {justify-content: space-evenly;}
+	.menu_member .menu_member_inner nav.navbar {justify-content: end;}
+	.menu_member .menu_member_inner nav.navbar button.navbar-toggler {border: 0;background: transparent !important;}
+	.menu_member .menu_member_inner nav.navbar button.navbar-toggler span.navbar-toggler-icon {background: #fff url(https://www.lemontreehotels.com/Ka_assest/images/1608507_angle_down_icon.png);background-size: contain; background-repeat: no-repeat;background-position: center;padding: 10px;border-radius: 4px;}
+	section.citynamevaib_main.redeem_cs_main .city-search {width: 75%;}
+	.row.pt-md-5.mb-4.justify-content-center.hotels-row.position-relative {padding: 0 !important;margin-bottom: 0 !important;}
+	.trip_left_nav {padding: 15px;flex-direction: column;}
+	.trip_left_nav .tripTab {width: 100%;}
+	.trip_left_nav .tab-content {width: 100%;padding: 15px 0 0;}
+	.trip_form {width: 100%;justify-content: center;}
+	.trip_left_nav .tab-content table thead tr th, td {padding: 5px; font-size: 12px;}
+	.hotels-row .card-header .col-lg-3.pr-lg-0.pl-3 figure.position-relative.mb-0 img {width: 100%;}
+
+
+
+
+}
+
+@media(max-width: 767px){
+	section.MemberDashboardMiddle-main {padding: 30px 0 !important;}
+	section.my_benefits{padding: 30px 0 !important;}
+	section.member_header{padding: 30px 0 !important;}
+	.member_status.bg_color {margin-bottom: 15px;    min-height: unset;}
+	.profile_member {justify-content: center;text-align: center;}	
+	.point_member {justify-content: center;min-height: unset;margin-top: 20px;box-shadow: 0px -2px 0px 0px #d2d2d2;}
+	.userName_member strong {font-size: 14px;}
+	.point_member_main {padding: 0 25px;}
+	section.citynamevaib_main.redeem_cs_main .city-search {width: 100%;}
+	section.citynamevaib_main.py-5.redeem_cs_main .citynamevaib_main_hotels_inner_main a {margin: 0 !important;padding: 5px !important;line-height: unset !important;min-height: 30px !important;}
+	section.citynamevaib_main.py-5.redeem_cs_main .citynamevaib_main_hotels_inner_main a.ldesk {display: inline-block;}
+	section.citynamevaib_main.py-5.redeem_cs_main .hotels-row .card-header .row .col-sm-8.col-lg-7.p-lg-0.pt-2.pl-lg-3.border-bottom { width: 100% !important; max-width: 100% !important;flex: 100% !important;}
+	section.citynamevaib_main.py-5.redeem_cs_main {padding: 15px !important;}
+	.trip_left_nav .tab-content table thead tr th, td {padding: 10px;white-space: nowrap;}
+	section.my_benefits .my_benefits_right_inner .card .card-body p {margin-bottom: 0;}
+	section.my_benefits .my_benefits_right_inner .card .card-body {padding: 10px;}
+	section.menu_member nav ul li:last-child {margin-bottom: 0;}
+	section.citynamevaib_main.py-5.redeem_cs_main .citynamevaib_main_hotels_inner_main .citynamevaib_main_hotels_inner div#accordion .owl-stage-outer .card.my-4 {margin: 10px;}
+	.create_account_form.profileStep2 .form-row .form-group.col-md-6.mb-0 {margin-bottom: 15px !important;}
+	.create_account_form.profileStep2 .form-row .form-group.col-md-6.mobile_cs_form.mb-0 {margin-bottom: 0 !IMPORTANT;}
+	.maiwrapper section.header_space.py-5 {padding-top: 27px !important;}
+	section.MemberTripMiddle_main.py-5 div#myTabContent .tab-pane {min-height: unset;}
+	.trip_left_nav .tab-content table {padding: 10px;}
+	tbody.tripdata {font-size: 14px;padding-top: 10px !important;display: inline-block;width: 100%;}
+	.redeem_info_main {padding: 10px 20px;font-size: 14px;}
+	.citynamevaib_main_hotels_inner_main_inner .row .col-sm-8.col-lg-7.p-lg-0.pt-2.pl-lg-3.border-bottom, .citynamevaib_main_hotels_inner_main_inner .row .col-sm-4.col-lg-2.text-center.text-lg-right.py-3.pr-4.border-bottom.hide-logo.grey-logo {width: 100%;border: 0 !important;}
+
+}
+@media(max-width: 575px){
+	section.citynamevaib_main.py-5.redeem_cs_main .citynamevaib_main_hotels_inner_main a {padding: 0px !important;font-size: 15px;text-align: left;}
+	.citynamevaib_main_hotels_inner_main_inner .col-lg-9.text-right.px-2.text-center.text-lg-right a.btn.btn1.mr-lg-3.px-lg-4.mt-2.mt-lg-0.bookgrid.grid5 {padding: 4px 8px !important;}
+	.citynamevaib_main_hotels_inner_main_inner .col-lg-9.text-right.px-2.text-center.text-lg-right a.btn.btn-sec.mr-2.mr-lg-3.p-1.px-3.mt-2.mt-lg-0.card-link {padding: 4px 8px !important;}
+	section.my_benefits .my_benefits_right_inner .card .card-body p {font-size: 13px !important;}
+	.trip_form .form-group button {font-size: 14px;}
+	section.MemberTripMiddle_main.py-5 {padding: 30px 0 !important;}
+	section.citynamevaib_main.py-5.redeem_cs_main div#containers {padding: 0;}
+	.profileStep1 .profile_step_one_form ul li {font-size: 14px;}
+	.create_account_form.profileStep2 .form-row .form-group.col-md-6.mobile_cs_form.mb-0 .form-row .form-group.col-md-7 {width: 65%;}
+	.create_account_form.profileStep2 .form-row .form-group.col-md-6.mobile_cs_form.mb-0 .form-row .form-group.col-md-5.select_cs {width: 35%;}
+	section.citynamevaib_main.py-5.redeem_cs_main .hotels-row .card-header .row .col-sm-8.col-lg-7.p-lg-0.pt-2.pl-lg-3.border-bottom p.d-block.mb-2 a {font-size: 12px;}
+	section.citynamevaib_main.py-5.redeem_cs_main .hotels-row .card-header .row .col-sm-8.col-lg-7.p-lg-0.pt-2.pl-lg-3.border-bottom p.d-block.mb-2 {margin-top: 7px;}
+	.redeem_info_main { padding: 10px 20px; font-size: 14px;}
+
+
+}
+@media(max-width: 480px){
+	.point_member_main {width: 50%;}
+	.point_member {justify-content: space-between;}
+	.userName_member h3 {font-size: 2rem;}
+	.member_status {	margin-bottom: 0;padding: 15px;min-height: unset;}
+	.member_status_right {flex-direction: column;}
+	.member_status_right_left {width: 100%;padding-right: 0;}
+	.divi_bar_statusNumber {flex-direction: row; margin: 10px 0;}
+	.my_benefits_right_inner .card .card-header {padding: 10px;}
+	.my_benefits_right_inner #My_Benefits_tab button.btn.btn-link figure {max-width: 30px;    font-size: 12px;}
+	.cs_form h2.form-title {font-size: 17px !important;margin-bottom: 0 !important;}
+	.cs_form_join_main {padding: 20px 10px 0 !important;}
+	section.menu_member nav ul {flex-direction: column; padding:10px 15px;}
+	section.menu_member nav ul li {width: 100%;margin: 0 0 10px;max-width: 100%;}
+	.member_header:before {z-index: 1;    opacity: .2;}
+	.trip_left_nav {padding: 10px;}
+	.trip_form {flex-direction: column;}
+	.trip_form .form-group {width: 100%;}
+	.point_member_main {min-height: unset;    padding: 0 10px;}
+	section.citynamevaib_main.redeem_cs_main .city-search input.submit_in {width: 35% !important;}
+	section.citynamevaib_main.py-5.redeem_cs_main {padding: 40px 15px 0!important;}
+	.owl-nav i.fa {font-size: 14px;padding: 8px 9.5px;}
+	.point_member_main p {font-size: 12px !important;}
+
+
+}

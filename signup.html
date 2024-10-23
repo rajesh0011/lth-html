@@ -1,0 +1,2246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   
+       <title>
+         Sign Up
+      </title>
+  
+      <meta name="description" content="Sign Up" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all" async />
+     <link href="css/style.css" rel="stylesheet" media="all" async />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" media="all" async />
+    <link href="css/customstyle.css" rel="stylesheet" media="all" async />
+   
+    <link href="css/select2.min.css" rel="stylesheet" media="all" async />
+    <link href="css/sumoselect.css" rel="stylesheet" media="all" async />
+   
+    <link rel="stylesheet" href="css/jquery-ui.css" media="all" async   />
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+    <style>
+        @-ms-viewport {
+            width: device-width
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="fixed-top">
+         
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img height="" width=""  loading="lazy"  src="images/logo.png" class="logo" alt="Lemon Tree Hotels" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="mobile-top-book-now" id="mobile-book-now-btn" href="javascript:void(0);">
+                    Book Now
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="mob-menu-close">X</div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Hotels</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Offers & Promotions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="rewards.html">Rewards Program </a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Our Brands </a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Sustainability </a></li>
+                        <li class="for-mob-items">
+                            <a href="signup.html">Join</a>
+                            <a href="signin.html">Sign In</a>
+                            <a href="javascript:void(0);">Manage Bookings</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav right-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle top-book-now" onclick="myFunction()"
+                                href="javascript:void(0);" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Book Now</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link right-img-icon" aria-current="page" href="#">
+                                <img height="" width=""  loading="lazy"  src="images/account_person_icon.png" alt="Lemon Tree Hotels" />
+                            </a>
+                            <ul class="dropdown-menu signin-dropdown" aria-labelledby="navbarDropdown">
+                                <li>
+                                    
+                                    <a class="dropdown-item join-btn" href="signup.html">Join</a>
+                                    <a class="dropdown-item signin-btn" href="signin.html" title="Sign-in">Sign
+                                        In</a>
+                                    <div class="join_down_part">
+                                        <a class="manage-booking-btn" target="_blank" href="https://be.synxis.com/signin?chain=7710&amp;child=0&amp;configcode=initialConfig&amp;level=chain&amp;themecode=initialTheme2">
+                                            Manage Bookings
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="bookbtn_slide_booking_form">
+            <a href="javascript:void(0);" id="close1" onclick="closepop()" class="cross-ion">X</a>
+            <div class="header_booking_engine">
+                <div class="swtch-btn">
+                    <span class="suggestion-btn">
+                        <img height="" width=""  loading="lazy"  src="images/informative.png" alt="Lemon Tree Hotels" class="img-fulid" />
+                    </span>
+                    <p>Day Rooms</p>
+                    <!-- <div class="switch_new">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" />
+                            <label class="form-check-label" for="mySwitch"></label>
+                        </div>
+                    </div> -->
+
+                    <div class="">
+                        <label class="switch ">
+                          <input type="checkbox" class="default" />
+                          <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                  
+                    
+                </div>
+<div class="header-search-select-option">
+                   
+<select name="getBeCityHotel" class="" id="getBeCityHotel" style="width: 100%;" autocomplete="off" >
+<option value=""></option>
+
+</select>
+</div>
+                <div class="datepicker-outer">
+                    <!-- <input type="text" name="select_start_date" id="select_start_date" placeholder="Start date" class="form-control" /> -->
+                    <input type="text" class="form-control" id="checkindate" placeholder="Check In Date" name="fromdate"
+                        readonly="" />
+                    <div class="input-group-addon">
+                        <img height="" width=""  loading="lazy"  src="images/cal-icon-blue.png" alt="Lemon Tree Hotels" class="calender-icon" />
+                    </div>
+
+                </div>
+                <div class="datepicker-outer">
+                    <!-- <input type="text" name="select_end_date" id="select_end_date" placeholder="End date" class="form-control" /> -->
+                    <input type="text" class="form-control" id="checkoutdate" placeholder="Check In Date"
+                        name="fromdate" readonly="">
+
+                    <div class="input-group-addon">
+                        <img height="" width=""  loading="lazy"  src="images/cal-icon-blue.png" alt="Lemon Tree Hotels" class="calender-icon" />
+                    </div>
+
+                </div>
+                <div class="rooms-child-outer-block">
+                    <input type="text" class="rooms-childs-input" id="rooms_childs_showT"
+                        value="Room(s) 1 - Adult(s) 1 - Children 0" readonly="" />
+                    <div class="backdrop d-none close-rooms" data-close=".showmoreT"></div>
+                    <div class="showmoreT add-rooms-block mt-2">
+                        <div class="row px-1 mt-0 mb-1" id="more_fieldsT">
+                            <div class="col-12 room-guestsT">
+                                <fieldset>
+                                    <div id="append_hereT">
+                                        <div class="row add-rooms-div add-thisT"
+                                            style="padding: 20px 15px 0px 0px; border-bottom: 1px solid #989898;">
+                                            <div class="Add-rooms-2">
+                                                <p class="rooms-listT">Room 1</p>
+                                                <span class="stripT d-none">
+                                                    <span class="font16 blackText"> <span
+                                                            class="latoBlack adultT">1</span> Adults, <span
+                                                            class="latoBlack childT"> 0</span> Children </span>
+                                                    <a class="font12 appendLeft10 edit_roomT">Edit </a> <a
+                                                        class="font12 remove_roomT" id="removeT">Remove</a>
+                                                </span>
+                                            </div>
+                                            <div class="row col-12 pr-0 stripT2">
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group plus-min-style">
+                                                        <div class="rounded-0">
+                                                            <p>Adult(s):</p>
+                                                            <button type="button" class="sub-adult"
+                                                                id="sub_adultT">-</button> <input type="number"
+                                                                class="adult-inputT" id="adultsT" value="1" min="1"
+                                                                max="3" readonly="" />
+                                                            <button type="button" class="add" id="add_adultT">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group plus-min-style">
+                                                        <div class="rounded-0">
+                                                            <p>Child (0-6 years):</p>
+                                                            <button type="button" class="sub" id="sub_childT">-</button>
+                                                            <input type="number" class="child-inputT" id="childsT"
+                                                                value="0" min="1" max="3" readonly="" />
+                                                            <button type="button" class="add" id="add_childT">+</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 padd-no" style="padding: 0px 5px;">
+                                            <div class="add-rooms-style"><a class="add-another-room" id="add_new_roomT">
+                                                    + Add Another Room</a> <a class="appy-rooms-add"> Apply</a></div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" onclick="begosearch();" class="strip-book-now-btn">Book Now</a>
+            </div>
+
+            
+        </div>
+    </header>
+
+   
+
+
+
+<div class="maiwrapper"> 
+         <section class="MemberSignUp_hero_sc">
+            <div class="container">
+               <div class="row">
+                <div class="col-md-4">
+                  <div class="benefits_list_cs">
+                     <h3 class="mb-4"><span>Join</span> Infinity Rewards</h3>
+                     <div class="benefits_list_cs_listing">
+                        <div class="benefits_list_cs_listing_item">
+                           <figure>
+                              <img src="images/freeRoomNights.png" class="">
+                           </figure>
+                           <div class="benefits_list_cs_listing_item_content">
+                              <h4> Free room nights </h4>
+                           </div>
+                        </div>
+                        <div class="benefits_list_cs_listing_item">
+                           <figure>
+                              <img src="images/Breakfast_new.png" class="">
+                           </figure>
+                           <div class="benefits_list_cs_listing_item_content">
+                              <h4>Complimentary breakfast </h4>
+                           </div>
+                        </div>
+                        <div class="benefits_list_cs_listing_item">
+                           <figure>
+                              <img src="images/Special-Offers.png ">
+                           </figure>
+                           <div class="benefits_list_cs_listing_item_content">
+                              <h4>Special offers </h4>
+                           </div>
+                        </div>
+                        <div class="benefits_list_cs_listing_item">
+                           <figure>
+                              <img src="images/WiFi-updated.png">
+                           </figure>
+                           <div class="benefits_list_cs_listing_item_content">
+                              <h4>Free wifi </h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  
+                  <div class="cs_form_join_main">
+                    <div class="cs_form">
+                     <h2 class="form-title">Create a new account?</h2>
+                     <div class="create_account_form">
+              
+                  <div class="signupstep1 new-style-form">
+                     <div class="form-row">
+                        <div class="form-group col-md-6 fname">
+                            <div class="palceholder">
+                              <label>First Name </label>
+                              <span class="star">*</span>
+                            </div>
+                            <input class="textfield__input form-control" type="text" id="txtsignupFnameNC" required>
+                        </div>
+
+                        <div class="form-group col-md-6 lname">
+                              <div class="palceholder">
+                                 <label>Last Name </label>
+                                 <span class="star">*</span>
+                               </div>
+                              <input class="textfield__input form-control" type="text" id="txtSignupLNameNC" required>
+                        </div>
+                     </div>
+                     <div class="form-row">
+                        <div class="form-group col-md-6 mb-0 email">
+                               <div class="palceholder">
+                                 <label>Email </label>
+                                 <span class="star">*</span>
+                               </div>
+                              <input class="textfield__input form-control" type="email" id="txtSignupEmailNC" required>
+                           </div>
+                                  
+                       <div class="form-group col-md-6 mobile_cs_form mb-0">
+                           <div class="form-row form-field-100">
+                              <div class="form-group col-md-12 select_cs">
+                                
+                                <span class="phone-star">*</span>
+                                <input type="tel" id="txtSignupPhoneNC" class="form-control form-control-1" style=" width: 100%!important;" placeholder="Enter phone number" />
+                             </div>
+                             
+                          </div>
+                       </div>
+                    </div>
+                    <div class="form-row">
+                     <div class="form-group col-md-12 select_cs country_cs">
+                       <div class="col-md-6">
+                        <div style="position: relative;">
+                           <span class="country-star">*</span>
+                        <select id="country" onchange="getbycities(this.value)"  name="country" class="form-control">
+                         <option value="0">Select Country</option>
+                         <option value="Afghanistan">Afghanistan</option>
+                         <option value="Åland Islands">Åland Islands</option>
+                         <option value="Albania">Albania</option>
+                         <option value="Algeria">Algeria</option>
+                         <option value="American Samoa">American Samoa</option>
+                         <option value="Andorra">Andorra</option>
+                         <option value="Angola">Angola</option>
+                         <option value="Anguilla">Anguilla</option>
+                         <option value="Antarctica">Antarctica</option>
+                         <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                         <option value="Argentina">Argentina</option>
+                         <option value="Armenia">Armenia</option>
+                         <option value="Aruba">Aruba</option>
+                         <option value="Australia">Australia</option>
+                         <option value="Austria">Austria</option>
+                         <option value="Azerbaijan">Azerbaijan</option>
+                         <option value="Bahamas">Bahamas</option>
+                         <option value="Bahrain">Bahrain</option>
+                         <option value="Bangladesh">Bangladesh</option>
+                         <option value="Barbados">Barbados</option>
+                         <option value="Belarus">Belarus</option>
+                         <option value="Belgium">Belgium</option>
+                         <option value="Belize">Belize</option>
+                         <option value="Benin">Benin</option>
+                         <option value="Bermuda">Bermuda</option>
+                         <option value="Bhutan">Bhutan</option>
+                         <option value="Bolivia">Bolivia</option>
+                         <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                         <option value="Botswana">Botswana</option>
+                         <option value="Brazil">Brazil</option>
+                         <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                         <option value="Brunei Darussalam">Brunei Darussalam</option>
+                         <option value="Bulgaria">Bulgaria</option>
+                         <option value="Burkina Faso">Burkina Faso</option>
+                         <option value="Burundi">Burundi</option>
+                         <option value="Cambodia">Cambodia</option>
+                         <option value="Cameroon">Cameroon</option>
+                         <option value="Canada">Canada</option>
+                         <option value="Cape Verde">Cape Verde</option>
+                         <option value="Cayman Islands">Cayman Islands</option>
+                         <option value="Central African Republic">Central African Republic</option>
+                         <option value="Chad">Chad</option>
+                         <option value="Chile">Chile</option>
+                         <option value="China">China</option>
+                         <option value="Christmas Island">Christmas Island</option>
+                         <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                         <option value="Colombia">Colombia</option>
+                         <option value="Comoros">Comoros</option>
+                         <option value="Congo, Brazzaville">Congo Brazzaville </option>
+                         <option value="Congo, Kinshasa">Congo Kinshasa </option>
+                         <option value="Cook Islands">Cook Islands</option>
+                         <option value="Costa Rica">Costa Rica</option>
+                         <option value="Cote D'ivoire">Cote D'ivoire</option>
+                         <option value="Croatia">Croatia</option>
+                         <option value="Cuba">Cuba</option>
+                         <option value="Cyprus">Cyprus</option>
+                         <option value="Czech Republic">Czech Republic</option>
+                         <option value="Denmark">Denmark</option>
+                         <option value="Djibouti">Djibouti</option>
+                         <option value="Dominica">Dominica</option>
+                         <option value="Dominican Republic">Dominican Republic</option>
+                         <option value="Ecuador">Ecuador</option>
+                         <option value="Egypt">Egypt</option>
+                         <option value="El Salvador">El Salvador</option>
+                         <option value="Equatorial Guinea">Equatorial Guinea</option>
+                         <option value="Eritrea">Eritrea</option>
+                         <option value="Estonia">Estonia</option>
+                         <option value="Ethiopia">Ethiopia</option>
+                         <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                         <option value="Faroe Islands">Faroe Islands</option>
+                         <option value="Fiji">Fiji</option>
+                         <option value="Finland">Finland</option>
+                         <option value="France">France</option>
+                         <option value="French Guiana">French Guiana</option>
+                         <option value="French Polynesia">French Polynesia</option>
+                         <option value="Gabon">Gabon</option>
+                         <option value="Gambia">Gambia</option>
+                         <option value="Georgia">Georgia</option>
+                         <option value="Germany">Germany</option>
+                         <option value="Ghana">Ghana</option>
+                         <option value="Gibraltar">Gibraltar</option>
+                         <option value="Greece">Greece</option>
+                         <option value="Greenland">Greenland</option>
+                         <option value="Grenada">Grenada</option>
+                         <option value="Guadeloupe">Guadeloupe</option>
+                         <option value="Guam">Guam</option>
+                         <option value="Guatemala">Guatemala</option>
+                         <option value="Guinea">Guinea</option>
+                         <option value="Guinea-bissau">Guinea-bissau</option>
+                         <option value="Guyana">Guyana</option>
+                         <option value="Haiti">Haiti</option>
+                         <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                         <option value="Honduras">Honduras</option>
+                         <option value="Hong Kong">Hong Kong</option>
+                         <option value="Hungary">Hungary</option>
+                         <option value="Iceland">Iceland</option>
+                         <option value="India">India</option>
+                         <option value="Indonesia">Indonesia</option>
+                         <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                         <option value="Iraq">Iraq</option>
+                         <option value="Ireland">Ireland</option>
+                         <option value="Israel">Israel</option>
+                         <option value="Italy">Italy</option>
+                         <option value="Jamaica">Jamaica</option>
+                         <option value="Japan">Japan</option>
+                         <option value="Jersey">Jersey</option>
+                         <option value="Jordan">Jordan</option>
+                         <option value="Kazakhstan">Kazakhstan</option>
+                         <option value="Kenya">Kenya</option>
+                         <option value="Kiribati">Kiribati</option>
+                         <option value="North Korea">North Korea</option>
+                         <option value="South Korea">South Korea</option>
+                         <option value="Kuwait">Kuwait</option>
+                         <option value="Kyrgyzstan">Kyrgyzstan</option>
+                         <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                         <option value="Latvia">Latvia</option>
+                         <option value="Lebanon">Lebanon</option>
+                         <option value="Lesotho">Lesotho</option>
+                         <option value="Liberia">Liberia</option>
+                         <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                         <option value="Liechtenstein">Liechtenstein</option>
+                         <option value="Lithuania">Lithuania</option>
+                         <option value="Luxembourg">Luxembourg</option>
+                         <option value="Macao">Macao</option>
+                         <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                         <option value="Madagascar">Madagascar</option>
+                         <option value="Malawi">Malawi</option>
+                         <option value="Malaysia">Malaysia</option>
+                         <option value="Maldives">Maldives</option>
+                         <option value="Mali">Mali</option>
+                         <option value="Malta">Malta</option>
+                         <option value="Marshall Islands">Marshall Islands</option>
+                         <option value="Martinique">Martinique</option>
+                         <option value="Mauritania">Mauritania</option>
+                         <option value="Mauritius">Mauritius</option>
+                         <option value="Mayotte">Mayotte</option>
+                         <option value="Mexico">Mexico</option>
+                         <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                         <option value="Moldova, Republic of">Moldova, Republic of</option>
+                         <option value="Monaco">Monaco</option>
+                         <option value="Mongolia">Mongolia</option>
+                         <option value="Montenegro">Montenegro</option>
+                         <option value="Montserrat">Montserrat</option>
+                         <option value="Morocco">Morocco</option>
+                         <option value="Mozambique">Mozambique</option>
+                         <option value="Myanmar">Myanmar</option>
+                         <option value="Namibia">Namibia</option>
+                         <option value="Nauru">Nauru</option>
+                         <option value="Nepal">Nepal</option>
+                         <option value="Netherlands">Netherlands</option>
+                         <option value="New Caledonia">New Caledonia</option>
+                         <option value="New Zealand">New Zealand</option>
+                         <option value="Nicaragua">Nicaragua</option>
+                         <option value="Niger">Niger</option>
+                         <option value="Nigeria">Nigeria</option>
+                         <option value="Niue">Niue</option>
+                         <option value="Norfolk Island">Norfolk Island</option>
+                         <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                         <option value="Norway">Norway</option>
+                         <option value="Oman">Oman</option>
+                         <option value="Pakistan">Pakistan</option>
+                         <option value="Palau">Palau</option>
+                         <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                         <option value="Panama">Panama</option>
+                         <option value="Papua New Guinea">Papua New Guinea</option>
+                         <option value="Paraguay">Paraguay</option>
+                         <option value="Peru">Peru</option>
+                         <option value="Philippines">Philippines</option>
+                         <option value="Poland">Poland</option>
+                         <option value="Portugal">Portugal</option>
+                         <option value="Puerto Rico">Puerto Rico</option>
+                         <option value="Qatar">Qatar</option>
+                         <option value="Reunion">Reunion</option>
+                         <option value="Romania">Romania</option>
+                         <option value="Russian Federation">Russian Federation</option>
+                         <option value="Rwanda">Rwanda</option>
+                         <option value="Saint Helena">Saint Helena</option>
+                         <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                         <option value="Saint Lucia">Saint Lucia</option>
+                         <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                         <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                         <option value="Samoa">Samoa</option>
+                         <option value="San Marino">San Marino</option>
+                         <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                         <option value="Saudi Arabia">Saudi Arabia</option>
+                         <option value="Senegal">Senegal</option>
+                         <option value="Serbia">Serbia</option>
+                         <option value="Seychelles">Seychelles</option>
+                         <option value="Sierra Leone">Sierra Leone</option>
+                         <option value="Singapore">Singapore</option>
+                         <option value="Slovakia">Slovakia</option>
+                         <option value="Slovenia">Slovenia</option>
+                         <option value="Solomon Islands">Solomon Islands</option>
+                         <option value="Somalia">Somalia</option>
+                         <option value="South Africa">South Africa</option>
+                         <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+                         <option value="Spain">Spain</option>
+                         <option value="Sri Lanka">Sri Lanka</option>
+                         <option value="Sudan">Sudan</option>
+                         <option value="Suriname">Suriname</option>
+                         <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                         <option value="Swaziland">Swaziland</option>
+                         <option value="Sweden">Sweden</option>
+                         <option value="Switzerland">Switzerland</option>
+                         <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                         <option value="Taiwan">Taiwan</option>
+                         <option value="Tajikistan">Tajikistan</option>
+                         <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                         <option value="Thailand">Thailand</option>
+                         <option value="Timor-leste">Timor-leste</option>
+                         <option value="Togo">Togo</option>
+                         <option value="Tokelau">Tokelau</option>
+                         <option value="Tonga">Tonga</option>
+                         <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                         <option value="Tunisia">Tunisia</option>
+                         <option value="Turkey">Turkey</option>
+                         <option value="Turkmenistan">Turkmenistan</option>
+                         <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                         <option value="Tuvalu">Tuvalu</option>
+                         <option value="Uganda">Uganda</option>
+                         <option value="Ukraine">Ukraine</option>
+                         <option value="United Arab Emirates">United Arab Emirates</option>
+                         <option value="United Kingdom">United Kingdom</option>
+                         <option value="United States">United States</option>
+                         <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                         <option value="Uruguay">Uruguay</option>
+                         <option value="Uzbekistan">Uzbekistan</option>
+                         <option value="Vanuatu">Vanuatu</option>
+                         <option value="Venezuela">Venezuela</option>
+                         <option value="Viet Nam">Viet Nam</option>
+                         <option value="Virgin Islands, British">Virgin Islands, British</option>
+                         <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                         <option value="Wallis and Futuna">Wallis and Futuna</option>
+                         <option value="Yemen">Yemen</option>
+                         <option value="Zambia">Zambia</option>
+                         <option value="Zimbabwe">Zimbabwe</option>
+                        </select>
+                     </div>
+                   </div>
+                   <div class="col-md-6">
+
+                     <div class="form-group select_cs country_cs">
+                      <input type="text" id="txtSignupcityNC" placeholder="Select City" class="bg-white form-control search_in showHidden ui-autocomplete-input" name="" />  
+                      <div class="profile_view-all-city" id="cities_list_id"></div>
+                          
+                      </div>
+                   </div>
+                </div>
+             </div>
+                          <div class="form-row" style="margin-top: -1rem;">
+                  <div class="form-group col-md-6 mb-3 select_cs country_cs">
+                     <input type="text" class="form-control" id="birthDate" placeholder="Birthday Date" />
+                  </div>
+                  <div class="form-group col-md-6 mb-3 select_cs country_cs">
+                     <input type="text" class="form-control" id="anniversaryDate" placeholder="Anniversary Date" />
+                  </div>
+              </div>
+             <div class="form-row acpt_tNc">
+               <div class="form-group col-md-12">
+                  <div class="form-check">
+                     <input class="form-check-input" type="checkbox" value="" id="checkagree" />
+                     <label class="form-check-label" for="checkagree">
+                        <p class="b-text_copy-2 b-text_align-center">I agree to the <a href="{{ URL::to('')}}/privacy-policy">Privacy Policy</a><br />By joining, you are agreeing to the Infinity Rewards <a href="{{ URL::to('')}}/term-condition">Terms and Condition</a>.</p>
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <div class="form-row submit_btn">
+               <div class="form-group col-md-6">
+                  <button type="button" onclick="return NCSignupNow();" class="btn btn-primary submit_in">Join</button>
+               </div>
+               <div class="form-group col-md-6">
+                  <p class="b-text_copy-2 b-text_align-center">Already a member? <a href="signin.html">Sign In</a></p>
+               </div>
+            </div>
+         </div>
+         <!-- OTP  -->
+         <div class="mobile_otp signupstep2" style="display:none;">                      
+           <div class="form-row">
+              <div class="form-group col-md-12 mobile_otp_inner">
+                 <div class="row">
+                   <div class="col-md-8"><input type="text" class="form-control" id="txtSignupEmailOtpNC" placeholder="Verify OTP"> </div>
+                   <div class="col-md-4"><button type="button" class="submit_in btn btn-primary" onclick="return NCSignupNow();">Resend OTP</button></div>
+                   
+                </div>
+             </div>
+          </div>                      
+          <div class="form-row submit_btn">
+           <div class="form-group col-md-6">
+              <button type="button" onclick="return SignUpOtpEmailValidateLTH();" class="btn btn-primary submit_in submit_in_main">Submit</button>
+           </div>
+        </div>
+     </div>
+     <!-- OTP  -->
+     <div class="loadingPage" style="display: none;"></div>
+     <p class="error_found text-danger" id="errmessnew"></p>
+     
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="our-presence">
+                    <div class="top-footer-heading">
+                        <h2><a href="javascript:void();" id="all-hotels-main">Our Presence <span>+</span></a></h2>
+                    </div>
+                    <div class="hotels">
+                        <div class="" id="all-cities" style="display: none;">
+                            <ul class="footer-hotel-listing">
+                                <li><a href="agra-hotels"> HOTELS IN Agra</a></li>
+                                <li><a href="ahmedabad-hotels"> HOTELS IN Ahmedabad</a></li>
+                                <li><a href="aligarh-hotels"> HOTELS IN Aligarh</a></li>
+                                <li><a href="alleppey-hotels"> HOTELS IN Alleppey</a></li>
+                                <li><a href="alwar-hotels"> HOTELS IN Alwar</a></li>
+                                <li><a href="aurangabad-hotels"> HOTELS IN Aurangabad</a></li>
+                                <li><a href="baddi-hotels"> HOTELS IN Baddi</a></li>
+                                <li><a href="bandhavgarh-hotels"> HOTELS IN Bandhavgarh</a></li>
+                                <li><a href="bengaluru-hotels"> HOTELS IN Bengaluru</a></li>
+                                <li><a href="bhiwadi-hotels"> HOTELS IN Bhiwadi</a></li>
+                                <li><a href="bhopal-hotels"> HOTELS IN Bhopal</a></li>
+                                <li><a href="bhubaneswar-hotels"> HOTELS IN Bhubaneswar</a></li>
+                                <li><a href="chandigarh-hotels"> HOTELS IN Chandigarh</a></li>
+                                <li><a href="chennai-hotels"> HOTELS IN Chennai</a></li>
+                                <li><a href="coimbatore-hotels"> HOTELS IN Coimbatore</a></li>
+                                <li><a href="coorg-hotels"> HOTELS IN Coorg</a></li>
+                                <li><a href="corbett-hotels"> HOTELS IN Corbett</a></li>
+                                <li><a href="dapoli-hotels"> HOTELS IN Dapoli</a></li>
+                                <li><a href="dehradun-hotels"> HOTELS IN Dehradun</a></li>
+                                <li><a href="delhi-hotels"> HOTELS IN Delhi</a></li>
+                                <li><a href="dubai-hotels"> HOTELS IN Dubai</a></li>
+                                <li><a href="dwarka-hotels"> HOTELS IN Dwarka</a></li>
+                                <li><a href="gangtok-hotels"> HOTELS IN Gangtok</a></li>
+                                <li><a href="goa-hotels"> HOTELS IN Goa</a></li>
+                                <li><a href="gurugram-hotels"> HOTELS IN gurugram</a></li>
+                                <li><a href="haridwar-hotels"> HOTELS IN Haridwar</a></li>
+                                <li><a href="hisar-hotels"> HOTELS IN Hisar</a></li>
+                                <li><a href="hubli-hotels"> HOTELS IN Hubli</a></li>
+                                <li><a href="hyderabad-hotels"> HOTELS IN Hyderabad</a></li>
+                                <li><a href="indore-hotels"> HOTELS IN Indore</a></li>
+                                <li><a href="jaipur-hotels"> HOTELS IN Jaipur</a></li>
+                                <li><a href="jammu-hotels"> HOTELS IN Jammu</a></li>
+                                <li><a href="jamshedpur-hotels"> HOTELS IN Jamshedpur</a></li>
+                                <li><a href="jhansi-hotels"> HOTELS IN Jhansi</a></li>
+                                <li><a href="kasauli-hotels"> HOTELS IN Kasauli</a></li>
+                                <li><a href="katra-hotels"> HOTELS IN Katra</a></li>
+                                <li><a href="kochi-hotels"> HOTELS IN Kochi</a></li>
+                                <li><a href="kolkata-hotels"> HOTELS IN Kolkata</a></li>
+                                <li><a href="kozhikode-hotels"> HOTELS IN Kozhikode</a></li>
+                                <li><a href="kumbhalgarh-hotels"> HOTELS IN Kumbhalgarh</a></li>
+                                <li><a href="lucknow-hotels"> HOTELS IN Lucknow</a></li>
+                                <li><a href="ludhiana-hotels"> HOTELS IN Ludhiana</a></li>
+                                <li><a href="manali-hotels"> HOTELS IN Manali</a></li>
+                                <li><a href="manesar-hotels"> HOTELS IN Manesar</a></li>
+                                <li><a href="mcleodganj-hotels"> HOTELS IN McLeodganj</a></li>
+                                <li><a href="mukteshwar-hotels"> HOTELS IN Mukteshwar</a></li>
+                                <li><a href="mumbai-hotels"> HOTELS IN Mumbai</a></li>
+                                <li><a href="neelkanth-hotels"> HOTELS IN Neelkanth</a></li>
+                                <li><a href="nepal-hotels"> HOTELS IN Nepal</a></li>
+                                <li><a href="noida-hotels"> HOTELS IN Noida</a></li>
+                                <li><a href="patna-hotels"> HOTELS IN Patna</a></li>
+                                <li><a href="port-blair-hotels"> HOTELS IN Portblair</a></li>
+                                <li><a href="pune-hotels"> HOTELS IN Pune</a></li>
+                                <li><a href="rajkot-hotels"> HOTELS IN Rajkot</a></li>
+                                <li><a href="rishikesh-hotels"> HOTELS IN Rishikesh</a></li>
+                                <li><a href="siliguri-hotels"> HOTELS IN Siliguri</a></li>
+                                <li><a href="sonmarg-hotels"> HOTELS IN Sonmarg</a></li>
+                                <li><a href="srinagar-hotels"> HOTELS IN Srinagar</a></li>
+                                <li><a href="thekkady-hotels"> HOTELS IN Thekkady</a></li>
+                                <li><a href="thimphu-hotels"> HOTELS IN Thimphu</a></li>
+                                <li><a href="thiruvananthapuram-hotels"> HOTELS IN Thiruvananthapuram</a></li>
+                                <li><a href="tiruchirappalli-hotels"> HOTELS IN Tiruchirappalli</a></li>
+                                <li><a href="udaipur-hotels"> HOTELS IN Udaipur</a></li>
+                                <li><a href="vadodara-hotels"> HOTELS IN Vadodara</a></li>
+                                <li><a href="vijayawada-hotels"> HOTELS IN Vijayawada</a></li>
+                                <li><a href="visakhapatnam-hotels"> HOTELS IN Visakhapatnam</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-page-links">
+                    <ul class="bottom-footer-links">
+                        <li><a href="awards">Awards</a></li>
+                        <li><a href="about-us">About us</a></li>
+                        <li><a href="https://careers.lemontreehotels.com/" target="_blank">Careers</a></li>
+                        <li><a href="contact-us">Contact us</a></li>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="http://brochures.lemontreehotels.com/bookcase/bqlzc/">Newsletters</a></li>
+                    </ul>
+                    <ul class="bottom-footer-links">
+                        <li><a href="https://blog.lemontreehotels.com">Blogs</a></li>
+                        <li><a href="day-use-rooms">Day Use</a></li>
+                        <li><a href="assets/pdf/cookie_policy.pdf" target="_blank">cookies Policy</a></li>
+                        <li><a href="non-affiliation">Non Affiliation</a></li>
+                        <li><a href="term-condition">Terms &amp; Conditions</a></li>
+                    </ul>
+                    <ul class="bottom-footer-links">
+                        <li><a href="media">Media</a></li>
+                        <li><a href="sitemap">Site Map</a></li>
+                        <li><a href="travel-guide">Travel Guidelines</a></li>
+                        <li><a href="https://investors.lemontreehotels.com/">Investor relations</a></li>
+                    </ul>
+                    <ul class="bottom-footer-links">
+                        <li><a href="https://nidhi.tourism.gov.in/">Nidhi</a></li>
+                        <li><a href="https://utsav.gov.in/">utsav</a></li>
+                        <li><a href="https://saathi.qcin.org/">Saathi</a></li>
+                        <li><a href="rewards">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-social-section">
+                        <div class="row">
+                            <div class="col-md-6 col-12 p-0 text-left ">
+                                <p>Join our newsletter</p>
+                                <div class="footer-subscribe-section">
+                                    <input type="email" id="newsemailId" placeholder="Enter Email ID" />
+                                    <input class="footer-submit-btn" type="button" value="Submit" onclick="return validatesubsemail();"/>
+                                    <div class="footer-bottom-form-check form-check">
+                                        
+                                        <input type="checkbox" checked class="form-check-input" id="checkSubscribeEmail"> <label class="form-check-label" for="checkSubscribeEmail">I agree to the <a href="https://www.lemontreehotels.com/privacy-policy">privacy policy.</a></label>
+                                    </div>
+                                    <div class="loadingPageSubscribe" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footer-right-social-block">
+                                <div class="footer-social-icons-block">
+                                    <h4>Follow us</h4>
+                                    <div class="footer-social-icons">
+                                        <ul>
+                                            <li class="social-i">
+                                                <a href="https://www.facebook.com/lemontreehotelsltd" target="_blank">
+                                                    <img height="" width=""  loading="lazy"  src="images/footer-fb-icon.png" alt="Lemon Tree Hotels" />
+                                                </a>
+                                            </li>
+                                            <li class="social-i">
+                                                <a href="https://twitter.com/LemonTreeHotels" target="_blank">
+                                                    <img height="" width=""  loading="lazy"  src="images/footer-linkedin-icon.png" alt="Lemon Tree Hotels" />
+                                                </a>
+                                            </li>
+                                            <li class="social-i">
+                                                <a href="https://www.instagram.com/lemontreehotels/" target="_blank">
+                                                    <img height="" width=""  loading="lazy"  src="images/footer-insta-icon.png" alt="Lemon Tree Hotels" />
+                                                </a>
+                                            </li>
+                                            <li class="social-i">
+                                                <a href="https://www.youtube.com/c/LemonTreeHotelsLtd" target="_blank">
+                                                    <img height="" width=""  loading="lazy"  src="images/footer-youtube-icon.png" alt="Lemon Tree Hotels" />
+                                                </a>
+                                            </li>
+                                            <li class="social-i">
+                                                <a href="https://www.threads.net/@lemontreehotels" target="_blank">
+                                                    <img height="" width=""  loading="lazy"  src="images/footer-threads-icon.png" alt="Lemon Tree Hotels" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="copy_right_text">©2024 by Lemon Tree Hotels Ltd. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="js/owl.carousel.js" defer></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/custom.js" defer></script>
+    <script src="js/common_be.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.full.min.js"></script> -->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //   $('#long-weekend-offer').modal('show');
+        });
+        $('.advesory-btn').click(function () {
+            $('.advesory').hide();
+        });
+
+        $('.mob-menu-close').click(function () {
+            $('#navbarSupportedContent').removeClass("show");
+        });
+
+
+    </script>
+   
+
+    <script>
+    function begosearch() {
+        
+      var turl = window.location.href;
+      var getidval = $("#getBeCityHotel").val();
+    
+      var hotelid='';
+      var cityname='';
+      result = getidval.match("hid_");
+      if(result=='hid_'){
+          hotelid= getidval.replace("hid_", "");
+      }else{
+          var cityname = getidval.toLowerCase();
+      }
+      //var cc = $("[id$=_txtCitySearch1]").val();
+      //var hurl = $("[id$=hidurl1]").val().toLowerCase();
+     
+     
+      //var isyes4 = $('#yes41').prop('checked');
+      var isyes4 = $('#mySwitch').prop('checked');
+      
+      if (cityname == "Alwar".toLowerCase()) {
+          cityname = "ALW";
+      }
+      else if (cityname == "Aurangabad".toLowerCase()) {
+          cityname = "IXU";
+      }
+      else if (cityname == "Bengaluru".toLowerCase()) {
+          cityname = "BLR";
+      }
+      else if (cityname == "Chennai".toLowerCase()) {
+          cityname = "MAA";
+      }
+      else if (cityname == "Gangtok".toLowerCase()) {
+          cityname = "GN02";
+      }
+      else if (cityname == "Ghaziabad".toLowerCase()) {
+          cityname = "GZD";
+      }
+      else if (cityname == "Gurgaon".toLowerCase()) {
+          cityname = "Gurugram";
+      }
+      else if (cityname == "Hyderabad".toLowerCase()) {
+          cityname = "HYD";
+      }
+      else if (cityname == "Jaipur".toLowerCase()) {
+          cityname = "JAI";
+      }
+      else if (cityname == "Pune".toLowerCase()) {
+          cityname = "PNQ";
+      }
+      else if (cityname == "Tiruchirappalli".toLowerCase()) {
+          cityname = "Trichy";
+      }
+      else if (cityname == "Port-Blair".toLowerCase()) {
+          cityname = "ANDAMAN";
+      }
+      else if (cityname == "Bhubaneswar".toLowerCase()) {
+          cityname = "BHU";
+      }
+      else if (cityname == "Coimbatore".toLowerCase()) {
+          cityname = "COIMBOTORE";
+      }
+      else if (cityname == "Thiruvananthapuram".toLowerCase()) {
+          cityname = "TRI";
+      }
+      else if (cityname == "Visakhapatnam".toLowerCase()) {
+          cityname = "VASA";
+      }
+      /* if (cc == "" || $("[id$=hidtxt1]").val() == "") {
+          alert("Please Enter Your Destination or Hotel");
+          cityname.focus();
+          return false;
+      } */
+      else {
+            var checkin;
+            var checkout;
+            var rooms;
+            var adul;
+            var promo12 = '';
+            
+            checkin = $("#checkindate").val();
+              checkout = $("#checkoutdate").val();
+              var roomsadultchilds = $("#rooms_childs_showT").val().split(" - ");
+              rooms = roomsadultchilds[0].split(' ')[1];
+              adul = roomsadultchilds[1].split(' ')[1];
+              chil = roomsadultchilds[2].split(' ')[1];
+
+
+              var d11 = new Date();
+              var d21 = new Date(checkin);
+
+              var timeDiff = d21.getTime() - d11.getTime();
+              var DaysDiff = timeDiff / (1000 * 3600 * 24);
+
+              var sla
+              if (DaysDiff <= 3) {
+                  sla = 'B3';
+              }
+              else if (DaysDiff > 3 && DaysDiff <= 7) {
+                  sla = 'B7';
+              }
+              else if (DaysDiff > 7 && DaysDiff <= 15) {
+                  sla = 'B15';
+              }
+              else if (DaysDiff > 15) {
+                  sla = 'B25';
+              }
+              var Geturl = window.location.pathname;
+              //******************************************
+              var values = "";
+              var n = $(".adult-inputT").length;
+              //alert(n);
+              var i = 1;
+              $(".adult-inputT").each(function () {
+                  if (i < n) {
+                      values += $(this).val() + ",\n";
+                  }
+                  else {
+                      values += $(this).val();
+                  }
+                  i++;
+              });
+              adul1 = values;
+              aduls_num = n;
+
+              var valueschilds = "";
+              var n = $(".child-inputT").length;
+              //alert(n);
+              var i = 1;
+              $(".child-inputT").each(function () {
+                  if (i < n) {
+                      valueschilds += $(this).val() + ",\n";
+                  }
+                  else {
+                      valueschilds += $(this).val();
+                  }
+                  i++;
+              });
+              chil1 = valueschilds;
+              chil1_num = n;
+            var dayusefor="";
+                var templateuse="SBE";
+              var checkedValue = $('#top_booking_updated_switch:checked').val();
+              if(checkedValue=='on'){
+                  templateuse="DAYUSESBE";
+                  dayusefor="&config=dayUse";
+          }
+               $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/getmpromocode',
+        data: {  synxis_id: hotelid },
+        cache: false,
+        beforeSend: function (request) {
+           /*  $(".loadingPage").fadeIn(); */
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            promo12=data.pcode;
+            
+
+            if(hotelid!=""){
+                
+          /*  window.open("https://be.synxis.com/?Chain=7710&Hotel=" + hotelid + '&template='+templateuse+'&shell=SBE&theme=initialTheme2&arrive=' + checkin + '&depart=' + checkout + '&Adult=' + aduls_num + '&Rooms=' + rooms + '&Child=' + chil1_num + '&promo=' + promo12 + '&clientId=&start=availresults&locale=en-US'+dayusefor); */
+           
+            /* var location11 = "https://be.synxis.com/?adult="+adul1+"&arrive=" + checkin + "&chain=7710&child=1&currency=INR&depart=" + checkout + "&hotel=" + hotelid + "&level=hotel&locale=en-US&productcurrency=INR&rooms=" + rooms + "&shell=SBE&start=availresults&template=" + templateuse + "&theme=initialTheme2"+dayusefor; */
+
+            var location11 = "https://be.synxis.com/?adult="+adul1+"&arrive=" + checkin + "&chain=7710&child="+chil1+"&currency=INR&depart=" + checkout + "&hotel=" + hotelid + "&level=hotel&locale=en-US&productcurrency=INR&rooms=" + rooms + "&shell=SBE&start=availresults&template=" + templateuse + "&theme=initialTheme2"+dayusefor;
+    
+                 window.open(location11,"_self");
+                 
+            }if(cityname!=""){
+                 /* window.open("https://be.synxis.com/?Chain=7710&Dest=" + cityname + '&template='+templateuse+'&shell=SBE&theme=initialTheme2&arrive=' + checkin + '&depart=' + checkout + '&Adult=' + aduls_num + '&Rooms=' + rooms + '&Child=' + chil1_num + '&promo=' + promo12 + '&clientId=&start=availresults&locale=en-US'+dayusefor); */
+                 
+                 var location11 = "https://be.synxis.com/?chain=7710&Dest=" + cityname + '&template='+templateuse+'&shell=SBE&theme=initialTheme2&arrive=' + checkin + '&depart=' + checkout + '&adult=' + adul1 + '&rooms=' + rooms + '&child=' + chil1 + '&promo=' + promo12 + '&clientId=&start=availresults&locale=en-US'+dayusefor;
+    
+                 window.open(location11,"_self");
+            }
+        
+
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+              
+          return false;
+          
+          window.location.reload();
+      }
+  }
+    
+    
+        $(document).ready(function () {
+            $("#rjInput1").focus(function () {
+                $("#filterable-data-rj1").show();
+            });
+
+            $("#rjInput1").on("keyup", function () {
+                debugger;
+                var value = $(this).val().toLowerCase();
+                // if (value == 'gurgaon' || value == 'gurga' || value == 'gurgao' || value == 'gurg') {
+                //     value = 'gurugram';
+                // }
+                $("#filterable-data-rj1 a").filter(function () {
+                    if (value == 'bangalore' || value == 'bang' || value == 'banga' || value == 'bangal' || value == 'bangalo' || value == 'bangalor') {
+                        $(this).toggle($(this).text().toLowerCase().indexOf('bengaluru') > -1);
+                    } 
+                    else if (value == 'gurgaon' || value == 'gurga' || value == 'gurgao' || value == 'gurg') {
+                        $(this).toggle($(this).text().toLowerCase().indexOf('gurugram') > -1);
+                }else {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                    }
+                });
+            });
+        });
+
+        $("#rjInput1").on("change, blur", function () {
+            setTimeout(function () { $("#filterable-data-rj1").slideUp().hide(250) }, 3000)
+        });
+    </script>
+
+    <script>
+        $("#checkindate").datepicker({
+            numberOfMonths: 2,
+            minDate: 0,
+            dateFormat: 'mm/dd/yy',
+            showCurrentAtPos: 0,
+            onSelect: function (selectedDate) {
+                var d = $('#checkindate').datepicker('getDate');
+                d.setDate(d.getDate() + 1);
+                $('#checkoutdate').datepicker('option', 'minDate', d, { autoOpen: true });
+                $('#checkoutdate').datepicker('setDate', d);
+            }
+        });
+
+        $('#checkindate').datepicker({
+            minDate: new Date(),
+            numberOfMonth: 2,
+
+        });
+
+        $('#checkoutdate').datepicker({
+            minDate: new Date(),
+            showCurrentAtPos: 0,
+            dateFormat: 'mm/dd/yy',
+
+        });
+
+        if ($('#checkindate').length) {
+            $('#checkindate').datepicker('setDate', new Date());
+            var d2 = $('#checkindate').datepicker('getDate');
+            d2.setDate(d2.getDate() + 1);
+            $('#checkoutdate').datepicker('option', {
+                numberOfMonths: 2,
+                showCurrentAtPos: 1,
+            }, 'minDate', d2);
+            $('#checkoutdate').datepicker('setDate', d2);
+        }
+
+    </script>
+   
+
+    
+    <script>
+       $(document).ready(function() {
+
+    $("#search-box").keyup(function() {
+
+        $.ajax({
+
+        type: "POST",
+
+        url: "get/propertycity",
+
+        data: {  keyword: $(this).val() },
+
+        cache: false,
+
+        beforeSend: function (request) {
+
+           $("#search-box").css("background", "#FFF url(assets/front/images/LoaderIcon.gif) no-repeat 165px");
+
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+
+        },
+
+        success: function (data) {
+
+            $("#suggesstion-box").show();
+
+                $("#suggesstion-box").html(data);
+
+                $("#search-box").css("background", "#FFF");
+
+
+
+
+
+        }
+
+    });
+
+
+    }); 
+
+
+});
+        
+    </script>
+
+     <script>
+        function viewimg(imgname, imgTitle) {
+            var img = document.querySelector(".brands_img");
+            img.src = "assets/fronts/images/" + imgname;
+            $(".our_brands_img_caption").html(imgTitle);
+            // $('').setAttribute('src', 'kimages/' + imgname);
+        }
+        $(".panel-collapse").on("show.bs.collapse", function (e) {
+            $(e.target).closest(".panel").siblings().find(".panel-collapse").collapse("hide");
+        });
+    </script>
+
+    
+    <script type="text/javascript">
+        function clearsearch() {
+            setTimeout(function () {
+                $("#search-box").val("");
+                $("#suggesstion-box").fadeOut("fast");
+            }, 1000);
+
+        }
+        function selectCountry(val) {
+
+            $("#suggesstion-box").hide();
+            window.location.href = "/" + val;
+        }
+
+        $(function () {
+            $("#getBeCityHotel").select2();
+        });
+    </script>
+
+    <script type="text/javascript">
+
+        function myFunction() {
+            var element = document.getElementById("navbarDropdown");
+            element.classList.add("d_none");
+        }
+        function closepop() {
+            var x = document.getElementById("navbarDropdown");
+            x.classList.remove("d_none");
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            let panels = $("#accordionExample > .accordion-item > .accordion-button").hide();
+
+            images = $("#accordion__img > img");
+
+            panels.first().show();
+
+            images.first().show();
+
+            $("#accordionExample .accordion-item .accordion-header").click(function () {
+                let panel = $(this).parent(),
+
+                    tabName = panel.attr("tab-name"),
+                    image = $("#" + tabName + "-img");
+
+                panels.slideUp();
+                images.slideUp();
+
+                panel.find(".accordion-body").show();
+                image.show().addClass("displaythis");
+
+                return false;
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        var checker = document.getElementById("mySwitch");
+        var sendbtn = document.getElementById("select_end_date");
+        checker.onchange = function () {
+            sendbtn.disabled = !!this.checked;
+        };
+        
+function validatesubsemail(){
+     var regEmails = /^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$/;
+     var email = $.trim($("#newsemailId").val());
+     var AlphaNumeric = /[0-9a-zA-Z' ']{0,}/;
+     if (email == "" || email == "Email") {
+        alert("Please enter email id !");
+        $("#newsemailId").focus();
+        return false;
+    }
+    else if (!AlphaNumeric.test(email)) {
+        alert("Please enter a valid Email Id ! ");
+        $("#SubscribeEmailNew").focus();
+        return false;
+    }
+    else if (!regEmails.test(email)) {
+        alert("Please enter a valid Email Id !");
+        $("#newsemailId").focus();
+        return false;
+    }else{
+        $.ajax({
+            type: "POST",
+            url: 'https://www.lemontreehotels.com/enquiry/subscribeenquiry',
+            data: {  email:$("#newsemailId").val()},
+            cache: false,
+            beforeSend: function (request) {
+                return request.setRequestHeader('X-CSRF-Token', 'BtE3OzRs48eAGcckFjk0WyBlchiu9Qo3oIvSkiKC');
+            },
+            success: function (data) {
+                $('#newsemailId').val('');
+                alert("Sign Up Enquiry Submitted Successfully");
+            },
+            error: function (jqXHR, textStatus, ex) { }
+        });
+    }
+}
+    </script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.1.1/css/intlTelInput.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.1.1/js/intlTelInput.min.js"></script>
+<script>
+// Initialize the input field as an international telephone input field
+   var input = document.querySelector("#txtSignupPhoneNC");
+   var iti = window.intlTelInput(input, {
+initialCountry: "in", // Set default country to India
+utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.1.1/js/utils.js",
+});
+
+</script>
+<script type="text/javascript">
+   $("#birthDate").datepicker({
+  showOtherMonths: true,
+  changeMonth: true,
+  changeYear: true,
+  yearRange: '1900:+0'
+});
+
+   $("#anniversaryDate").datepicker({
+  showOtherMonths: true,
+  changeMonth: true,
+  changeYear: true,
+  yearRange: '1900:+0'
+});
+</script>
+<script>
+$(function() {
+setTimeout(function() { $("#errmessnew").fadeOut(1500); }, 5000)
+
+})
+function NCSignupNow() {
+    //alert("hi");
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    var RegEmail = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    //var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var RegPhNo = /^\d{10}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var AlphaNumeric = /[0-9a-zA-Z' ']{0,}/;
+    //var title = $("#ddlTitle");
+    var fname = $("#txtsignupFnameNC");
+    var lname = $("#txtSignupLNameNC");
+    var email = $("#txtSignupEmailNC");
+    var phone = $("#txtSignupPhoneNC");
+    var country = $("#country");
+    var city = $("#txtSignupcityNC");
+    var termagree = $("#checkagree");
+    var birthDate = $("#birthDate");
+    var anniversaryDate = $("#anniversaryDate");
+    //if (termagree.prop("checked") == true) {
+       
+    //    alert("hi");
+    //}
+    //else {
+    //    alert("bye");
+    //}
+     
+    //// var phone = $("#txtSignupPhone").val();
+    if ($.trim(fname.val()) == "" || fname.val() == "First Name") {
+        alert("Please enter your first name!");
+        fname.focus();
+        return false;
+    }
+    else if ($.trim(lname.val()) == "" || lname.val() == "Last Name") {
+        alert("Please enter your last name!");
+        lname.focus();
+        return false;
+    }
+    else if (email.val() == "" || email.val() == "Email") {
+        alert("Please enter your email!");
+        email.focus();
+        return false;
+    }
+    else if (!RegEmail.test(email.val())) {
+        alert("Please enter a valid Email ID");
+        email.focus();
+        return false;
+    }
+    else if (phone.val() == "" || phone.val() == "Mobile Number") {
+        alert("Please enter your mobile no.!");
+        phone.focus();
+        return false;
+    }
+    //else if (phone.val().length < 10) {
+    //    alert('Please enter your valid mobile no.!');
+    //    phone.focus();
+    //    return false;
+    //}
+    else if ($.trim(country.val()) == "0") {
+        alert("Please select your country!");
+        country.focus();
+        return false;
+    }
+    else if ($.trim(country.val()) == "India" && $.trim(city.val()) == "0") {
+        alert("Please select your city!");
+        city.focus();
+        return false;
+
+    }
+    else if (termagree.prop("checked") == false) {
+        alert('You must agree to the terms first.');
+        termagree.focus();
+        return false;
+    }
+    else {
+        SignupNowChild();
+    }
+}
+
+function SignupNowChild() {
+
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    var RegEmail = /^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$/;
+    //var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var RegPhNo = /^\d{10}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var AlphaNumeric = /[0-9a-zA-Z' ']{0,}/;
+    var fname = $("#txtsignupFnameNC").val();
+    var lname = $("#txtSignupLNameNC").val();
+    var email = $("#txtSignupEmailNC").val();
+    var phone = $("#txtSignupPhoneNC").val();
+    var country = $("#country").val();
+    var city = $("#txtSignupcityNC").val();
+    var birthDate = $("#birthDate").val();
+    var anniversaryDate = $("#anniversaryDate").val();
+    var cityname;
+    if ($.trim(country) != "India" && $.trim(city) == "") {
+        cityname = "";
+    }
+    else { cityname = city; }
+    //var countrycode = $("#SignupcountryCode");
+    //var emailcode = $("#txtSignupEmailOtp");
+    //var mobilecode = $("#txtSignupPhoneOtp");
+    var termagree = $("#checkagree");
+    var tc;
+    if (termagree.prop("checked") == false) {
+        tc = "N";
+    }
+    else {
+        tc = "Y";
+    }
+    
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/muser/getmsignup',
+        data: {  FirstName: fname, LastName:lname, EmailId: email, MobileNo: phone, City: cityname, Country: country, DateofBirth: birthDate,WeddingAnniversary: anniversaryDate, PrivacyPolicyAcceptance: tc },
+        cache: false,
+        beforeSend: function (request) {
+            $(".loadingPage").fadeIn();
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            if (data.d == "1") {
+                $("#errmessnew").html('');
+                $(".signupstep1").addClass("d-none");
+                $(".signupstep2").show();
+                $(".loadingPage").fadeOut();
+            }
+            else {
+                alert(data.msg);
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.msg);
+                return false;
+            }
+            
+           /*  if (data == "-1442") {
+                alert("Email id already enrolled");
+                $("#errmessnew").html('Email id already enrolled')
+                $(".loadingPage").fadeOut();
+                
+            }if (data == "1") {
+                $("#errmessnew").html('');
+                $(".signupstep1").addClass("d-none");
+                $(".signupstep2").show();
+                $(".loadingPage").fadeOut();
+                
+            }
+            else {
+                $(".loadingPage").fadeOut();
+                //alet("Error Exist try again");
+                $("#errmessnew").html(data)
+            } */
+
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+}
+
+
+function SignUpOtpEmailValidateLTH() {
+    //alert("hi");
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    //var RegEmail = /^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$/;
+    var RegEmail = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var fname = $("#txtsignupFnameNC");
+    var lname = $("#txtSignupLNameNC");
+    var email = $("#txtSignupEmailNC");
+    var phone = $("#txtSignupPhoneNC");
+    var country = $("#country");
+    var city = $("#txtSignupcityNC");
+    //var countrycode = $("#SignupcountryCode");
+    //var emailcode = $("#txtSignupEmailOtp");
+    //var mobilecode = $("#txtSignupPhoneOtp");
+    var termagree = $("#checkagree");
+    var emailcode = $("#txtSignupEmailOtpNC");
+
+    if (emailcode.val() == "" || emailcode.val() == "Enter Email OTP") {
+        alert('Please enter your Email OTP');
+        emailcode.focus();
+        return false;
+    }
+    if (emailcode.val().length < 6) {
+        alert('Please enter valid Email OTP');
+        emailcode.focus();
+        return false;
+    }
+    else {
+        SignUpOtpEmailIssueValidateLTHChild();
+    }
+
+}
+function SignUpOtpEmailIssueValidateLTHChild() {
+
+    var fname = $("#txtsignupFnameNC").val();
+    var lname = $("#txtSignupLNameNC").val();
+    var email = $("#txtSignupEmailNC").val();
+    var phone = $("#txtSignupPhoneNC").val();
+    var country = $("#country").val();
+    var city = $("#txtSignupcityNC").val();
+    var birthDate = $("#birthDate").val();
+    var anniversaryDate = $("#anniversaryDate").val();
+    var cityname;
+    if ($.trim(country) != "India" && $.trim(city) == "") {
+        cityname = "";
+    }
+    else { cityname = city; }
+    //var countrycode = $("#SignupcountryCode");
+    //var emailcode = $("#txtSignupEmailOtp");
+    //var mobilecode = $("#txtSignupPhoneOtp");
+    var termagree = $("#checkagree");
+    var tc;
+    if (termagree.prop("checked") == false) {
+        tc = "N";
+    }
+    else {
+        tc = "Y";
+    }
+    var emailcode = $("#txtSignupEmailOtpNC").val();
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/muser/getmsignupotp',
+        data: {  FirstName: fname, LastName:lname, EmailId: email, MobileNo: phone, City: cityname, Country: country,DateofBirth: birthDate,WeddingAnniversary: anniversaryDate, PrivacyPolicyAcceptance: tc, OTP: emailcode },
+        cache: false,
+        beforeSend: function (request) {
+            $(".loadingPage").fadeIn();
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            $("#errmessnew").html('');
+            if (data.d == "0") {
+                window.location.href = 'https://www.lemontreehotels.com/member/dashboard';
+            }
+            else {
+                alert(data.msg);
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.msg);
+                return false;
+            }
+            /* alert(data);
+            $(".loadingPage").fadeOut();
+            return false;
+            var res = data.d.split('|');
+
+            if (res[7] == "Success") {
+
+
+
+                $("#errmessnew").html('')
+                //$(".loadingPage").fadeOut();
+                //window.location.href = "https://www.lemontreehotels.com/infinity";
+                //window.location.reload();
+                var returl = $.cookie('returnurl');
+                //alert(returl);
+                if ($.cookie('returnurl') === null || typeof ($.cookie('returnurl')) === 'undefined') {
+                    window.location.href = window.location.pathname; //"https://www.lemontreehotels.com/infinity";
+                }
+                else if (returl === 'https://360inex.com/lemontreehotels/') {
+                    $("#our-partners_cs-pop").modal('show');
+                    //window.location.href = returl;
+                }
+                else if (returl === 'https://www.healthians.com/vendor-packages/lemontree') {
+                    $("#our-partners_cs-popHealthier").modal('show');
+                    //window.location.href = returl;
+                }
+
+                else {
+                    //window.location.href = "https://www.lemontreehotels.com/infinity.aspx";
+                    window.location.href = returl;
+                    $.removeCookie('returnurl');
+                }
+
+
+
+
+                // $("#errmessnew").html('')
+                // var returl = $.cookie('returnurl');
+                // //alert(returl);
+                // if ($.cookie('returnurl') === null || typeof ($.cookie('returnurl')) === 'undefined') {
+                //     window.location.href = "https://www.lemontreehotels.com/infinity.aspx";
+                // }
+                // else {
+                //     window.location.href = returl;
+                //     $.removeCookie('returnurl');
+                // }
+                //$(".loadingPage").fadeOut();
+                //window.location.href = "https://www.lemontreehotels.com/infinity.aspx";
+                //window.location.reload();
+            }
+            else {
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.d);
+                return false;
+            } */
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+
+}
+
+function NCSigninByEmailForm() {
+   
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    //var RegEmail = /^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$/;
+    var RegEmail = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var Email = $("#txtNcSignInEmail");
+    //var Password = $("#txtSignInEmailPasswprd");
+    if (Email.val() == "" || Email.val() == "Email") {
+        alert('Please enter your Email ID');
+        Email.focus();
+        return false;
+    }
+    else if (!RegEmail.test(Email.val())) {
+        alert("Please enter a valid Email ID");
+        Email.focus();
+        return false;
+    }
+    else {
+        SigninByEmailLTH();
+    }
+
+}
+function SigninByEmailLTH() {
+
+    var email = $("#txtNcSignInEmail").val();
+    //var chkRememberMe = $("#SignInremember").val();
+    
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/muser/signinapi',
+        data: {  EmailId: email },
+        cache: false,
+        beforeSend: function (request) {
+            $(".loadingPage").fadeIn();
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            var res = data.d
+
+            if (res == "1") {
+                $("#errmessnew").html('')
+                $(".signinemailstep1").addClass("d-none");
+                $(".signinemailstep2").show();
+                $(".loadingPage").fadeOut();
+
+                //window.location.href = window.location.href;
+               // window.location.reload();
+            }
+            else {
+                //alert(data.d);
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.d);
+                return false;
+            }
+            //}
+            //else {
+            //    $("#errmess").html(data.d);
+            //    return false;
+            //}
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+
+}
+var country_id=$("#country").val();
+getbycities(country_id);
+function getbycities(country_id) {
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/getbycitieslist',
+        data: {  country_id: country_id },
+        cache: false,
+        beforeSend: function (request) {
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            if(data!=''){
+                $("#txtSignupcityNC").hide();
+                $("#cities_list_id").html(data);
+            }else{
+                $("#txtSignupcityNC").show();
+                $("#cities_list_id").html('');
+            }
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+}
+
+
+window.onload = checkcookienew();
+function checkcookienew() {
+ 
+    var Disclaimer = $.cookie('Disclaimer');
+    var AccCookies = $.cookie('AcceptCookies1');
+    var mid = $.cookie('MID');
+    //alert(AccCookies);
+    if ($.cookie('AcceptCookies1')===null || typeof ($.cookie('AcceptCookies1')) === 'undefined') {
+        $('.cookie-popup').addClass('cookie-popup--not-accepted');
+    }
+    else if (AccCookies === 'yes') {
+        
+        $('.cookie-popup').addClass('cookie-popup--accepted');
+    }
+    if (typeof $.cookie('Disclaimer') === 'undefined') {
+        var delayMs = 1500; // delay in milliseconds
+
+        setTimeout(function () {
+            $('#disclaimerpop').modal('show');
+        }, delayMs);
+    }
+   
+    //if ($.cookie('mid') != null || typeof ($.cookie('mid')) != 'undefined') {
+       
+    //}
+}
+</script>
+
+
+<script type="text/javascript">
+   
+$('.palceholder').click(function() {
+  $(this).siblings('input').focus();
+});
+$('.form-control').focus(function() {
+  $(this).siblings('.palceholder').hide();
+});
+$('.form-control').blur(function() {
+  var $this = $(this);
+  if ($this.val().length == 0)
+    $(this).siblings('.palceholder').show();
+});
+$('.form-control').blur();
+</script>
+
+
+<script type="text/javascript">
+$('.form-control-1').focus(function() {
+  $(".phone-star").hide();
+});
+$('.form-control-1').blur(function() {
+
+  var $this = $(this);
+  if ($this.val().length == 0)
+   $(".phone-star").show();
+});
+$('.form-control-1').blur();
+</script>
+
+<script type="text/javascript">
+
+   $("#country").change(function(){
+    if($(this).val() == "0") {
+       // $('.country-star').addClass('active');
+      $(".country-star").show();
+    } else {
+       $(".country-star").hide();
+    }
+});
+
+
+</script>
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.1.1/css/intlTelInput.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.1.1/js/intlTelInput.min.js"></script>
+<script>
+// Initialize the input field as an international telephone input field
+   var input = document.querySelector("#txtSignupPhoneNC");
+   var iti = window.intlTelInput(input, {
+initialCountry: "in", // Set default country to India
+utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.1.1/js/utils.js",
+});
+
+</script>
+<script type="text/javascript">
+   $("#birthDate").datepicker({
+  showOtherMonths: true,
+  changeMonth: true,
+  changeYear: true,
+  yearRange: '1900:+0'
+});
+
+   $("#anniversaryDate").datepicker({
+  showOtherMonths: true,
+  changeMonth: true,
+  changeYear: true,
+  yearRange: '1900:+0'
+});
+</script>
+<script>
+$(function() {
+setTimeout(function() { $("#errmessnew").fadeOut(1500); }, 5000)
+
+})
+function NCSignupNow() {
+    //alert("hi");
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    var RegEmail = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    //var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var RegPhNo = /^\d{10}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var AlphaNumeric = /[0-9a-zA-Z' ']{0,}/;
+    //var title = $("#ddlTitle");
+    var fname = $("#txtsignupFnameNC");
+    var lname = $("#txtSignupLNameNC");
+    var email = $("#txtSignupEmailNC");
+    var phone = $("#txtSignupPhoneNC");
+    var country = $("#country");
+    var city = $("#txtSignupcityNC");
+    var termagree = $("#checkagree");
+    var birthDate = $("#birthDate");
+    var anniversaryDate = $("#anniversaryDate");
+    //if (termagree.prop("checked") == true) {
+       
+    //    alert("hi");
+    //}
+    //else {
+    //    alert("bye");
+    //}
+     
+    //// var phone = $("#txtSignupPhone").val();
+    if ($.trim(fname.val()) == "" || fname.val() == "First Name") {
+        alert("Please enter your first name!");
+        fname.focus();
+        return false;
+    }
+    else if ($.trim(lname.val()) == "" || lname.val() == "Last Name") {
+        alert("Please enter your last name!");
+        lname.focus();
+        return false;
+    }
+    else if (email.val() == "" || email.val() == "Email") {
+        alert("Please enter your email!");
+        email.focus();
+        return false;
+    }
+    else if (!RegEmail.test(email.val())) {
+        alert("Please enter a valid Email ID");
+        email.focus();
+        return false;
+    }
+    else if (phone.val() == "" || phone.val() == "Mobile Number") {
+        alert("Please enter your mobile no.!");
+        phone.focus();
+        return false;
+    }
+    //else if (phone.val().length < 10) {
+    //    alert('Please enter your valid mobile no.!');
+    //    phone.focus();
+    //    return false;
+    //}
+    else if ($.trim(country.val()) == "0") {
+        alert("Please select your country!");
+        country.focus();
+        return false;
+    }
+    else if ($.trim(country.val()) == "India" && $.trim(city.val()) == "0") {
+        alert("Please select your city!");
+        city.focus();
+        return false;
+
+    }
+    else if (termagree.prop("checked") == false) {
+        alert('You must agree to the terms first.');
+        termagree.focus();
+        return false;
+    }
+    else {
+        SignupNowChild();
+    }
+}
+
+function SignupNowChild() {
+
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    var RegEmail = /^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$/;
+    //var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var RegPhNo = /^\d{10}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var AlphaNumeric = /[0-9a-zA-Z' ']{0,}/;
+    var fname = $("#txtsignupFnameNC").val();
+    var lname = $("#txtSignupLNameNC").val();
+    var email = $("#txtSignupEmailNC").val();
+    var phone = $("#txtSignupPhoneNC").val();
+    var country = $("#country").val();
+    var city = $("#txtSignupcityNC").val();
+    var birthDate = $("#birthDate").val();
+    var anniversaryDate = $("#anniversaryDate").val();
+    var cityname;
+    if ($.trim(country) != "India" && $.trim(city) == "") {
+        cityname = "";
+    }
+    else { cityname = city; }
+    //var countrycode = $("#SignupcountryCode");
+    //var emailcode = $("#txtSignupEmailOtp");
+    //var mobilecode = $("#txtSignupPhoneOtp");
+    var termagree = $("#checkagree");
+    var tc;
+    if (termagree.prop("checked") == false) {
+        tc = "N";
+    }
+    else {
+        tc = "Y";
+    }
+    
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/muser/getmsignup',
+        data: {  FirstName: fname, LastName:lname, EmailId: email, MobileNo: phone, City: cityname, Country: country, DateofBirth: birthDate,WeddingAnniversary: anniversaryDate, PrivacyPolicyAcceptance: tc },
+        cache: false,
+        beforeSend: function (request) {
+            $(".loadingPage").fadeIn();
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            if (data.d == "1") {
+                $("#errmessnew").html('');
+                $(".signupstep1").addClass("d-none");
+                $(".signupstep2").show();
+                $(".loadingPage").fadeOut();
+            }
+            else {
+                alert(data.msg);
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.msg);
+                return false;
+            }
+            
+           /*  if (data == "-1442") {
+                alert("Email id already enrolled");
+                $("#errmessnew").html('Email id already enrolled')
+                $(".loadingPage").fadeOut();
+                
+            }if (data == "1") {
+                $("#errmessnew").html('');
+                $(".signupstep1").addClass("d-none");
+                $(".signupstep2").show();
+                $(".loadingPage").fadeOut();
+                
+            }
+            else {
+                $(".loadingPage").fadeOut();
+                //alet("Error Exist try again");
+                $("#errmessnew").html(data)
+            } */
+
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+}
+
+
+function SignUpOtpEmailValidateLTH() {
+    //alert("hi");
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    //var RegEmail = /^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$/;
+    var RegEmail = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var fname = $("#txtsignupFnameNC");
+    var lname = $("#txtSignupLNameNC");
+    var email = $("#txtSignupEmailNC");
+    var phone = $("#txtSignupPhoneNC");
+    var country = $("#country");
+    var city = $("#txtSignupcityNC");
+    //var countrycode = $("#SignupcountryCode");
+    //var emailcode = $("#txtSignupEmailOtp");
+    //var mobilecode = $("#txtSignupPhoneOtp");
+    var termagree = $("#checkagree");
+    var emailcode = $("#txtSignupEmailOtpNC");
+
+    if (emailcode.val() == "" || emailcode.val() == "Enter Email OTP") {
+        alert('Please enter your Email OTP');
+        emailcode.focus();
+        return false;
+    }
+    if (emailcode.val().length < 6) {
+        alert('Please enter valid Email OTP');
+        emailcode.focus();
+        return false;
+    }
+    else {
+        SignUpOtpEmailIssueValidateLTHChild();
+    }
+
+}
+function SignUpOtpEmailIssueValidateLTHChild() {
+
+    var fname = $("#txtsignupFnameNC").val();
+    var lname = $("#txtSignupLNameNC").val();
+    var email = $("#txtSignupEmailNC").val();
+    var phone = $("#txtSignupPhoneNC").val();
+    var country = $("#country").val();
+    var city = $("#txtSignupcityNC").val();
+    var birthDate = $("#birthDate").val();
+    var anniversaryDate = $("#anniversaryDate").val();
+    var cityname;
+    if ($.trim(country) != "India" && $.trim(city) == "") {
+        cityname = "";
+    }
+    else { cityname = city; }
+    //var countrycode = $("#SignupcountryCode");
+    //var emailcode = $("#txtSignupEmailOtp");
+    //var mobilecode = $("#txtSignupPhoneOtp");
+    var termagree = $("#checkagree");
+    var tc;
+    if (termagree.prop("checked") == false) {
+        tc = "N";
+    }
+    else {
+        tc = "Y";
+    }
+    var emailcode = $("#txtSignupEmailOtpNC").val();
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/muser/getmsignupotp',
+        data: {  FirstName: fname, LastName:lname, EmailId: email, MobileNo: phone, City: cityname, Country: country,DateofBirth: birthDate,WeddingAnniversary: anniversaryDate, PrivacyPolicyAcceptance: tc, OTP: emailcode },
+        cache: false,
+        beforeSend: function (request) {
+            $(".loadingPage").fadeIn();
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            $("#errmessnew").html('');
+            if (data.d == "0") {
+                window.location.href = 'https://www.lemontreehotels.com/member/dashboard';
+            }
+            else {
+                alert(data.msg);
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.msg);
+                return false;
+            }
+            /* alert(data);
+            $(".loadingPage").fadeOut();
+            return false;
+            var res = data.d.split('|');
+
+            if (res[7] == "Success") {
+
+
+
+                $("#errmessnew").html('')
+                //$(".loadingPage").fadeOut();
+                //window.location.href = "https://www.lemontreehotels.com/infinity";
+                //window.location.reload();
+                var returl = $.cookie('returnurl');
+                //alert(returl);
+                if ($.cookie('returnurl') === null || typeof ($.cookie('returnurl')) === 'undefined') {
+                    window.location.href = window.location.pathname; //"https://www.lemontreehotels.com/infinity";
+                }
+                else if (returl === 'https://360inex.com/lemontreehotels/') {
+                    $("#our-partners_cs-pop").modal('show');
+                    //window.location.href = returl;
+                }
+                else if (returl === 'https://www.healthians.com/vendor-packages/lemontree') {
+                    $("#our-partners_cs-popHealthier").modal('show');
+                    //window.location.href = returl;
+                }
+
+                else {
+                    //window.location.href = "https://www.lemontreehotels.com/infinity.aspx";
+                    window.location.href = returl;
+                    $.removeCookie('returnurl');
+                }
+
+
+
+
+                // $("#errmessnew").html('')
+                // var returl = $.cookie('returnurl');
+                // //alert(returl);
+                // if ($.cookie('returnurl') === null || typeof ($.cookie('returnurl')) === 'undefined') {
+                //     window.location.href = "https://www.lemontreehotels.com/infinity.aspx";
+                // }
+                // else {
+                //     window.location.href = returl;
+                //     $.removeCookie('returnurl');
+                // }
+                //$(".loadingPage").fadeOut();
+                //window.location.href = "https://www.lemontreehotels.com/infinity.aspx";
+                //window.location.reload();
+            }
+            else {
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.d);
+                return false;
+            } */
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+
+}
+
+function NCSigninByEmailForm() {
+   
+    var RegEx = /^[a-zA-Z][a-zA-Z ]+$/;
+    var RegexSpecialCharacter = /^[a-zA-Z][a-zA-Z ][0-9]+$/;
+    //var RegEmail = /^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$/;
+    var RegEmail = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    var RegPhNo = /^[0-9,()-]{1,50}$/;
+    var WebSiteExp = /^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$/;
+    var Email = $("#txtNcSignInEmail");
+    //var Password = $("#txtSignInEmailPasswprd");
+    if (Email.val() == "" || Email.val() == "Email") {
+        alert('Please enter your Email ID');
+        Email.focus();
+        return false;
+    }
+    else if (!RegEmail.test(Email.val())) {
+        alert("Please enter a valid Email ID");
+        Email.focus();
+        return false;
+    }
+    else {
+        SigninByEmailLTH();
+    }
+
+}
+function SigninByEmailLTH() {
+
+    var email = $("#txtNcSignInEmail").val();
+    //var chkRememberMe = $("#SignInremember").val();
+    
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/muser/signinapi',
+        data: {  EmailId: email },
+        cache: false,
+        beforeSend: function (request) {
+            $(".loadingPage").fadeIn();
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            var res = data.d
+
+            if (res == "1") {
+                $("#errmessnew").html('')
+                $(".signinemailstep1").addClass("d-none");
+                $(".signinemailstep2").show();
+                $(".loadingPage").fadeOut();
+
+                //window.location.href = window.location.href;
+               // window.location.reload();
+            }
+            else {
+                //alert(data.d);
+                $(".loadingPage").fadeOut();
+                $("#errmessnew").html(data.d);
+                return false;
+            }
+            //}
+            //else {
+            //    $("#errmess").html(data.d);
+            //    return false;
+            //}
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+
+}
+var country_id=$("#country").val();
+getbycities(country_id);
+function getbycities(country_id) {
+    $.ajax({
+        type: "POST",
+        url: 'https://www.lemontreehotels.com/getbycitieslist',
+        data: {  country_id: country_id },
+        cache: false,
+        beforeSend: function (request) {
+            return request.setRequestHeader('X-CSRF-Token', '{{ csrf_token() }}');
+        },
+        success: function (data) {
+            if(data!=''){
+                $("#txtSignupcityNC").hide();
+                $("#cities_list_id").html(data);
+            }else{
+                $("#txtSignupcityNC").show();
+                $("#cities_list_id").html('');
+            }
+        },
+        error: function (jqXHR, textStatus, ex) { }
+    });
+}
+
+
+window.onload = checkcookienew();
+function checkcookienew() {
+ 
+    var Disclaimer = $.cookie('Disclaimer');
+    var AccCookies = $.cookie('AcceptCookies1');
+    var mid = $.cookie('MID');
+    //alert(AccCookies);
+    if ($.cookie('AcceptCookies1')===null || typeof ($.cookie('AcceptCookies1')) === 'undefined') {
+        $('.cookie-popup').addClass('cookie-popup--not-accepted');
+    }
+    else if (AccCookies === 'yes') {
+        
+        $('.cookie-popup').addClass('cookie-popup--accepted');
+    }
+    if (typeof $.cookie('Disclaimer') === 'undefined') {
+        var delayMs = 1500; // delay in milliseconds
+
+        setTimeout(function () {
+            $('#disclaimerpop').modal('show');
+        }, delayMs);
+    }
+   
+    //if ($.cookie('mid') != null || typeof ($.cookie('mid')) != 'undefined') {
+       
+    //}
+}
+</script>
+
+
+<script type="text/javascript">
+   
+$('.palceholder').click(function() {
+  $(this).siblings('input').focus();
+});
+$('.form-control').focus(function() {
+  $(this).siblings('.palceholder').hide();
+});
+$('.form-control').blur(function() {
+  var $this = $(this);
+  if ($this.val().length == 0)
+    $(this).siblings('.palceholder').show();
+});
+$('.form-control').blur();
+</script>
+
+
+<script type="text/javascript">
+$('.form-control-1').focus(function() {
+  $(".phone-star").hide();
+});
+$('.form-control-1').blur(function() {
+
+  var $this = $(this);
+  if ($this.val().length == 0)
+   $(".phone-star").show();
+});
+$('.form-control-1').blur();
+</script>
+
+<script type="text/javascript">
+
+   $("#country").change(function(){
+    if($(this).val() == "0") {
+       // $('.country-star').addClass('active');
+      $(".country-star").show();
+    } else {
+       $(".country-star").hide();
+    }
+});
+
+
+</script>
+
+
+
+    
+</body>
+
+</html>
